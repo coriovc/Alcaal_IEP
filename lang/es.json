@@ -1,0 +1,143 @@
+{   
+    
+    ".head-lang":{
+        "item-1" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Empresa",
+            "item-1-a" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Sobre nosotros",
+            "item-1-b" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Nuestro equipo",
+        "item-2" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Servicios",
+        "item-3" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Contacto",
+        "btn-lang" : "<a id=\"lang\" class=\"btn uza-btn btn-lang langClass\" data-lang=\"en\">ENG</a>"
+    },
+
+    ".welcome-area-lang":{
+        "section_title" : "Conocemos<br>tu agroindustria",
+        "parrafo":"Más de 16 años brindando servicios de diseño, construcción, y administración y consultoría de calidad a nivel global, en toda la cadena de valor agroindustrial"
+    },
+
+    ".wwd":{
+        "title-1" : "Qué hacemos",
+
+        "text-1" : "Servicios de gestión y consultoría",
+        "parrafo-1" : "Nuestro equipo altamente calificado participó en una amplia gama de proyectos en América Latina y África.",
+        
+        "text-2" : "Desarrollo agrícola",
+        "parrafo-2" : "Nuestro equipo profesional ha desarrollado estudios y proyectos relacionados con la agricultura en varios campos de acción.",
+
+        "text-3" : "Ingeniería de PROYECTO",
+        "parrafo-3" : "Equipo de especialistas con más de 40 años de experiencias en el diseño, construcción y explotación de complejos agroindustriales",
+
+        "btn-more" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>MÁS INFO"
+    },
+
+    ".exper":{
+        "sub-title" : "NUESTRA EXPERIENCIA_",
+        "text-title" : "Por qué Alcaal Agribusiness",
+
+        "text-1" : "Experiencia<br> y trayectoria",
+        "text-1-p" : "Equipo de expertos con +40 años de experiencia.",
+
+        "text-2" : "Tecnología <br> de vanguardia",
+        "text-2-p" : "Actualización permanente de nuestros equipos y sistemas",
+
+        "text-3" : "Alta <br> calidad",
+        "text-3-p" : "Alta calidad en el diseño, desarrollo y ejecución de proyectos.",
+
+        "text-4" : "Responsabilidad <br> social",
+        "text-4-p" : "La autosuficiencia alimentaria, la sustitución de importaciones, la lucha contra el hambre y la agricultura familiar han sido pilares fundamentales de todos los proyectos.",
+
+        "btn-team" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>CONOCÉ AL EQUIPO"
+    },
+
+
+    ".partn":{
+        "sub-title" : "SOCIOS_",
+        "text-title" : "Socios estratégicos",
+        "text-parr" : "Nuestro equipo de expertos se ha asociado con una amplia gama de organizaciones locales e internacionales que van desde gobiernos nacionales y provinciales hasta corporaciones multinacionales, DFI’s y ONG."
+    },
+
+    ".Project":{
+        "text-title" : "¿Tienes un proyecto?",
+        "btn" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>HABLEMOS"
+    },
+
+    
+    ".footer":{
+        "text-sn-mov" : "Redes<br>sociales",
+        "text-sn" : "Redes sociales",
+        
+        "gracias":"¡Muchas gracias!",
+        "parrafo-gracias":"El formulario fue enviado con éxito, en un futuro próximo nos contactaremos.",
+
+
+        "link-text-1" : "Empresa",
+        "link-text-2" : "Servicios",
+        "link-text-3" : "Contacto",
+
+        "info-text-1" : "Dirección postal",
+        "info-text-2" : "Teléfono"
+    },
+
+    ".about-lang":{
+        "text-title" : "Alcaal Agroindustrial",
+        "text-title-b" : "Tenemos una trayectoria exitosa en servicios relacionados con la agroindustria en más de 12 países y cuatro continentes.",
+        "parrafo-1" : "Brindamos asesoría integral que va desde la selección de tierras productivas y el financiamiento hasta la logística final de los productos procesados.",
+        "parrafo-2" : "Con sede en Buenos Aires, Argentina, ALCAAL Agroindustrial es parte del grupo internacional ALCAAL, enfocado en el desarrollo sustentable de proyectos agroindustriales de alto impacto en economías emergentes.",
+
+        "list-1" : "<i class=\"icon_check\"></i>Investigación de potencial",
+        "list-2" : "<i class=\"icon_check\"></i>Planificación y análisis",
+        "list-3" : "<i class=\"icon_check\"></i>Relevamiento de mercado",
+        "list-4" : "<i class=\"icon_check\"></i>Desarrollo de proyectos",
+        "list-5" : "<i class=\"icon_check\"></i>Producción",
+        "list-6" : "<i class=\"icon_check\"></i>Comercialización",
+
+        "btn" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>CONOCÉ AL EQUIPO"
+    },
+
+    ".team-lang":{
+        "text-title" : "Nuestro Equipo -  PERSONAS CLAVES",
+        "text-title-b" : "Nuestro equipo de expertos está conformado por agrónomos, gerentes de proyectos, especialistas financieros, especialistas en sustentabilidad y un equipo comercial.",
+        "parrafo-1" : "Elegir el equipo y los profesionales adecuados para llevar a cabo el proyecto, requiere un conocimiento técnico muy profundo. Nuestro equipo cuenta con las herramientas y el personal necesarios para garantizar el éxito de cada proyecto.",
+        "ingagro" : "Ingeniero Agronomo",
+        "ingind" : "Ingeniero Industrial",
+        "lic" : "Lic. Administración de Empresas"
+    },
+
+    ".Services-lang":{
+        "text-title" : "Qué hacemos",
+
+        "card-title-1" : "Gestión y consultoría",
+        "card-parrafo-1" : "Ofrecemos servicios de diseño, construcción, gestión y consultoría para actividades relacionadas con la producción de alimentos, que van desde la selección de tierras hasta el procesamiento y ventas de los productos, incluyendo análisis de riesgo.",
+
+        "card-title-2" : "Desarrollo agrícola",
+        "card-parrafo-2" : "Según la Asociación Internacional de Fomento, el desarrollo agrícola constituye uno de los medios más importantes para poner fin a la pobreza extrema, impulsar la prosperidad compartida y alimentar a una población que se espera llegue a 9700 millones de habitantes en 2050.",
+          "card-parrafo-2a" : "El crecimiento de la agricultura puede resultar hasta cuatro veces más eficaz que el de otros sectores para elevar los ingresos de los más pobres.",
+          "card-parrafo-2b" : "Nuestro equipo profesional ha desarrollado estudios y proyectos relacionados con la agricultura en varios campos de acción.",
+
+        "card-title-3" : "Ingeniería de Proyecto",
+        "card-parrafo-3" : "Nuestra unidad de negocio de Ingeniería de Proyectos está conformada por un equipo de especialistas con más de 40 años de experiencia en el diseño, construcción y operación de complejos agroindustriales: procesamiento y almacenamiento de granos, extracción de aceite, y puertos agrícolas, entre otros."
+
+    },
+
+    ".check-lang":{        
+        "check-l":"<input class=\"langClass\" type=\"checkbox\" checked data-lang=\"en\"><div></div>"
+
+    },
+
+    ".contact-lang":{
+        "text-title" : "Contáctanos",
+
+        "sub-title-1":"Dirección postal",
+        "sub-title-2":"Teléfono",
+
+        "name" : "<input type=\"text\" class=\"form-control\" name=\"name\" placeholder=\"Ingrese su nombre completo\">",
+        "phone" : "<input type=\"tel\" class=\"form-control\" name=\"phone\" placeholder=\"Ingrese su número telefónico\">",
+        "email" : "<input type=\"email\" class=\"form-control\" name=\"email\" placeholder=\"Introduce tu correo electrónico\">",
+        "message" : "<textarea class=\"form-control\" name=\"message\" rows=\"5\" cols=\"80\" placeholder=\"Mensaje\"></textarea>",
+
+        "btn-send" : "ENVIAR",
+        "gracias" : "¡Muchas gracias!",
+        "parrafo-gra" : "El formulario fue enviado con éxito, en un futuro próximo nos contactaremos."
+    }
+
+
+}

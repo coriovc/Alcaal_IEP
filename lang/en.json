@@ -1,0 +1,143 @@
+{   
+    
+    ".head-lang":{
+        "item-1" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>About",
+            "item-1-a" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>About us",
+            "item-1-b" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Our Team",
+        "item-2" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Services",
+        "item-3" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Contact",
+        "btn-lang" : "<a id=\"lang\" class=\"btn uza-btn btn-lang langClass\" data-lang=\"es\">ESP</a>"
+    },
+
+    ".welcome-area-lang":{
+        "section_title" : "We know<br>agribusiness",
+        "parrafo":"More than 16 years providing quality design, construction and management & consulting services worldwide, across the whole agro industrial value chain."
+    },
+
+    ".wwd":{
+        "title-1" : "What we do",
+
+        "text-1" : "Management & Consulting Services",
+        "parrafo-1" : "Our highly experienced team participated in a wide variety of projects in Latin America and África.",
+        
+        "text-2" : "Agricultural Development",
+        "parrafo-2" : "Our professional team has developed agriculture related studies and projects in various fields of action.",
+
+        "text-3" : "Project Engineering",
+        "parrafo-3" : "Team of specialists with over 40 years of experiences in the design, construction and operation of agro-industrial facilities.",
+
+        "btn-more" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>MORE INFO"
+    },
+
+    ".exper":{
+        "sub-title" : "OUR EXPERTISE_",
+        "text-title" : "Why Alcaal Agribusiness",
+
+        "text-1" : "Experience<br>& trajectory",
+        "text-1-p" : "Team of experts with +40 years of expertise.",
+
+        "text-2" : "First-line<br>technology",
+        "text-2-p" : "Our systems and aquipments are in constant update",
+
+        "text-3" : "High<br>quality",
+        "text-3-p" : "High quality and transparency in the design, development and execution of projects.",
+
+        "text-4" : "Social<br>responsability",
+        "text-4-p" : "Food self-sufficiency, hunger fight, import substitution and family farming have been at the core of all projects.",
+
+        "btn-team" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>MEET THE TEAM"
+    },
+
+
+    ".partn":{
+        "sub-title" : "PARTNERS_",
+        "text-title" : "Strategic partners",
+        "text-parr" : "Our experienced teams have partnered up with a wide array of local and international organizations ranging from national and provincial governments to multinational corporations, DFIs and NGOs."
+    },
+
+    ".Project":{
+        "text-title" : "¿Do you have a project?",
+        "btn" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>LET’S TALK"
+    },
+
+    
+    ".footer":{
+        "text-sn-mov" : "Social<br>networks",
+        "text-sn" : "Social networks",
+        
+        "gracias":"Thank you very much!",
+        "parrafo-gracias":"The form was sent successfully, In the near future we will contact.",
+
+
+        "link-text-1" : "About",
+        "link-text-2" : "Services",
+        "link-text-3" : "Contact",
+
+        "info-text-1" : "Postal Address",
+        "info-text-2" : "Phone"
+    },
+
+    ".about-lang":{
+        "text-title" : "Alcaal Agroindustrial",
+        "text-title-b" : "We have a proven track record in agribusiness related services in over 12 countries and four different continents.",
+        "parrafo-1" : "We provide holistic advise ranging from land selection, financing and Final product distribution",
+        "parrafo-2" : "Based in Buenos Aires, Argentina, ALCAAL Agroindustrial is part of the international ALCAAL group, focused on the sustainable development of high-impact agroindustrial projects in emerging economies.",
+
+        "list-1" : "<i class=\"icon_check\"></i>Potential Research",
+        "list-2" : "<i class=\"icon_check\"></i>Planning and analysis",
+        "list-3" : "<i class=\"icon_check\"></i>Market Research",
+        "list-4" : "<i class=\"icon_check\"></i>Project development",
+        "list-5" : "<i class=\"icon_check\"></i>Production",
+        "list-6" : "<i class=\"icon_check\"></i>Commercialization",
+
+        "btn" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>MEET THE TEAM"
+    },
+
+    ".team-lang":{
+        "text-title" : "Our team",
+        "text-title-b" : "Our professionals include agronomists, project managers, financial specialists, sustainability specialists and a trading team.",
+        "parrafo-1" : "Choosing the right team to carry out the project as well as the right professionals requires very deep technical knowledge. Our team counts with the necessary tools and staff to guarantee success on every project.",
+        "ingagro" : "Agricultural engineer",
+        "ingind" : "Industrial Engineer",
+        "lic" : "Lic. Business Administration"
+    },
+
+    ".Services-lang":{
+        "text-title" : "What we do",
+
+        "card-title-1" : "Management & Consulting Services",
+        "card-parrafo-1" : "We offer design, construction and management & consulting services for food production related activities, ranging from land selection, up to production, processing, sales and distribution, as well as risk analysis assessments.",
+
+        "card-title-2" : "Agricultural development",
+        "card-parrafo-2" : "According to the International Development Asociation, agricultural development is one of the most powerful tools to end extreme poverty, boost shared prosperity and feed a projected 9.7 billion people by 2050.",
+          "card-parrafo-2a" : "Growth in the agriculture sector is two to four times more effective in raising incomes among the poorest compared to other sectors.",
+          "card-parrafo-2b" : "Our professional team has developed agriculture related studies and projects in various fields of action.",
+
+        "card-title-3" : "Project Engineering",
+        "card-parrafo-3" : "Our Project Engineering business unit is comprised of a team of specialists with over 40 years of experiences in the design, construction and operation of agro-industrial complexes: grain processing and storage, oil extraction and agricultural ports, amongst others."
+
+    },
+
+    ".check-lang":{        
+        "check-l":"<input class=\"langClass\" type=\"checkbox\" data-lang=\"es\"><div></div>"
+
+    },
+
+    ".contact-lang":{
+        "text-title" : "Contact us",
+
+        "sub-title-1":"Postal Address",
+        "sub-title-2":"Phone",
+
+        "name" : "<input type=\"text\" class=\"form-control\" name=\"name\" placeholder=\"Enter your full name\">",
+        "phone" : "<input type=\"tel\" class=\"form-control\" name=\"phone\" placeholder=\"Enter your phone number\">",
+        "email" : "<input type=\"email\" class=\"form-control\" name=\"email\" placeholder=\"Enter your email\">",
+        "message" : "<textarea class=\"form-control\" name=\"message\" rows=\"5\" cols=\"80\" placeholder=\"Message\"></textarea>",
+
+        "btn-send" : "SEND",
+        "gracias" : "Thank you very much!",
+        "parrafo-gra" : "The form was sent successfully, In the near future we will contact."
+    }
+
+
+}
