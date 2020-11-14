@@ -53,6 +53,9 @@
             border-color: #D2D2D2;
             &.block{
               display: block;
+              @media #{$breakpoint-xs} {
+               display: none;        
+              } 
             }
             &:hover{
                 display: block;
@@ -319,7 +322,7 @@
                     font-size: 18px;
                     text-transform: capitalize;
                     color: $c-gray;
-                    margin: 16px 0;
+                    margin: 30px 0;
 
                     &:focus,
                     &:hover {
@@ -478,6 +481,9 @@
 
                     &.item-menu{
                     margin: 16px 0;
+                        @media #{$breakpoint-xs} {
+                            margin: 30px 0;
+                        }
                     }
 
                     &:hover {

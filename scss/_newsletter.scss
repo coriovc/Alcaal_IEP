@@ -19,7 +19,9 @@
     }
 
     @media #{$breakpoint-xs} {
-        padding: 2rem 2rem 14rem 2rem;
+        padding: 2rem 2rem 0 2rem;
+        background-position-x: -8rem;
+        width: 100%;
     }
 
     .border-line {
@@ -35,6 +37,10 @@
         margin-bottom: 10rem;
         margin-top: -6rem;
 
+        @media #{$breakpoint-xs} {
+            margin-bottom: 15rem;
+        }
+
         h2 {
             font-size: 55px;
             display: block;
@@ -43,7 +49,7 @@
             color: $primary;        
 
             @media #{$breakpoint-xs} {
-                font-size: 35px;
+                font-size: 40px;
             }
         }
 
@@ -53,8 +59,52 @@
             font-size: 24px;
 
             @media #{$breakpoint-xs} {
-                font-size: 14px;
-                margin-right: 2rem;
+                font-size: 16px;
+                margin-right: 0;
+                margin-top: 1rem;
+                line-height: 1.5;
+            }
+
+        }
+
+    }
+
+    .nl-content-2 {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        margin-bottom: 10rem;
+        margin-top: -6rem;
+        margin-left: 3rem;
+
+        @media #{$breakpoint-xs} {
+            margin-bottom: 15rem;
+            margin-left: 0;
+        }
+
+        h2 {
+            font-size: 55px;
+            display: block;
+            font-weight: 400;
+            margin-bottom: 0;
+            color: $primary;        
+
+            @media #{$breakpoint-xs} {
+                font-size: 28px;
+                margin-bottom: 1rem;
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+            line-height: 1;
+            font-size: 24px;
+
+            @media #{$breakpoint-xs} {
+                font-size: 16px;
+                margin-right: 0;
+                margin-top: 1rem;
+                line-height: 1.5;
             }
 
         }
@@ -73,7 +123,7 @@
     }
 
     @media #{$breakpoint-xs} {
-        padding: 5rem 0 5rem 0;
+        padding: 8rem 0 3rem 0;
     }
 
     .container{
@@ -98,6 +148,13 @@
             position: absolute;
             margin: -30% -22% 0 0;
             right: 0;
+
+            @media #{$breakpoint-xs} {                
+                width: 180px;
+                margin: -25rem 22% 0 0;
+                left: 0;
+                transform: rotate(180deg);          
+            }
         }
         .img{
             width: 650px;
@@ -105,6 +162,10 @@
             margin: -68% -78% 0 0;
             right: 0;
             z-index: -2;
+
+            @media #{$breakpoint-xs} {                
+                 margin: -29rem -28% 0 0;           
+            }
         }
 
         .card{
@@ -131,8 +192,9 @@
                     }
 
                     @media #{$breakpoint-xs} {
-                        font-size: 15px;
-                        margin-bottom: 10px;
+                        font-size: 13px;
+                        margin-bottom: 0;
+                        margin-top: 10px;
                     }
                 }
             }
@@ -149,10 +211,19 @@
                 font-size: 58px;
                 margin-bottom: 2rem;
                 color:$c-gray;
+
+                @media #{$breakpoint-xs} {
+                    font-size: 45px;
+                    line-height: 1.2;
+                    font-weight: 400;
+                    margin-bottom: 11rem;
+                }
             }      
 
             @media #{$breakpoint-xs} {
-                font-size: 40px;
+                font-size: 23px;
+                line-height: 1.2;
+                font-weight: 500;
             }
         }
 
@@ -179,7 +250,7 @@
     padding: 4rem 0 10rem 0;
 
     @media #{$breakpoint-xs} {
-        padding: 5rem 0 5rem 0;
+        padding: 3rem 0 10rem 0;
     }
 
     .logo-content{
@@ -229,6 +300,10 @@
         position: relative;
         z-index: 1;
 
+            @media #{$breakpoint-xs} {
+                margin-bottom: 40px;            
+            }
+
         h2 {
             font-size: 58px;
             display: block;
@@ -237,7 +312,9 @@
             color: $c-gray;        
 
             @media #{$breakpoint-xs} {
-                font-size: 35px;
+                font-size: 40px;
+                width: 80%;
+                color: $primary;
             }
         }
 

@@ -392,6 +392,7 @@ img {
   opacity: 0;
   visibility: hidden;
   position: absolute;
+  transform:none !important; top:97% !important;
   width: 100%;
   left: 0;
   top: 120%;

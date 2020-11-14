@@ -158,7 +158,6 @@
                 function () {
                     $(".main-header-area").addClass("sticky-menu");
                     $('#logo').attr('src','img/logo-color.svg');
-
                 }, 
                 function () {
                     $(".main-header-area").removeClass("sticky-menu");
@@ -168,11 +167,13 @@
 
          $(".active-a").hover(function() {
            $(".meg-a").toggleClass("mega-item").siblings().removeClass("mega-item");
-            });
+        });
+
+         $(".has-megamenu").hover(function() {
+           $("#drop").toggleClass("arrow_carrot-up").siblings().removeClass("arrow_carrot-down");
+           $("#drop").toggleClass("arrow_carrot-down").siblings().removeClass("arrow_carrot-up");
+        });
          
-         $(".active-b").hover(function() {
-           $(".meg-b").toggleClass("mega-item").siblings().removeClass("mega-item");
-            });
 
      });
 

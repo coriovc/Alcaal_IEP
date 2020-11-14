@@ -498,7 +498,7 @@
 }
 }@media only screen and (max-width:767px) {
     #nav {
-    padding-bottom: 2rem;
+    padding-bottom: 0;
 }
 }@media only screen and (max-width:767px) {
     .card-deck {
@@ -830,6 +830,13 @@ to {
     color: #fff;
 }
 
+@media only screen and (max-width:767px) {
+    .letra-outline {
+    font-size: 80px;
+    margin-top: -8rem;
+   }
+}
+
 .letra-outline-ex {
     -webkit-text-stroke: 0.1rem #EFEFEF;
     font-size: 200px;
@@ -840,6 +847,12 @@ to {
     margin-left: -5rem;
     z-index: -2;
     color: #fff;
+}
+@media only screen and (max-width:767px) {
+    .letra-outline-ex {
+    font-size: 80px;
+    margin-top: -4rem;
+    margin-left: -20rem;
 }
 
 .numero-outline {
@@ -861,22 +874,3 @@ to {
     margin-bottom: auto;
 }
 
-
-.contenedor .image-box{
-  overflow: hidden;
-  background-size: cover;
-  background-position: center center;
-}
-.contenedor .image-box img{
-  -webkit-transition:all .9s ease; 
-  -moz-transition:all .9s ease; 
-  -o-transition:all .9s ease;
-  -ms-transition:all .9s ease; 
-}
-.contenedor:hover .image-box img{
-  -webkit-transform:scale(1.15);
-  -moz-transform:scale(1.15);
-  -ms-transform:scale(1.15);
-  -o-transform:scale(1.15);
-  transform:scale(1.15);
-}

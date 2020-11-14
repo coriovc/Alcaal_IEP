@@ -198,8 +198,8 @@
 
         @media #{$breakpoint-xs} {
             padding: 0 20px;
-            top: 1rem;
-            width: 85%;
+            bottom: 1rem;
+            width: 100%;
         }
 
         h4 {
@@ -211,8 +211,9 @@
             width: 90%;
 
             @media #{$breakpoint-xs} {
-                font-size: 24px;
+                font-size: 25px;
                 width: 70%;
+                font-weight: 400;
             }
         }
 
@@ -326,12 +327,12 @@
         @media #{$breakpoint-xs} {
 
             .overlay-effect {   
-                top: 1rem;
+                bottom: 3rem;
                 width: 100%;
 
                 h4 {
-                  font-size: 19px;
-                  width: 100%;
+                  font-size: 26px;
+                  width: 70%;
                 }
 
                 p {
