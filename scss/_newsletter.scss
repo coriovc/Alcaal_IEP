@@ -16,6 +16,11 @@
     &.exper{
        padding: 13rem 0;
        margin-top: -5rem;
+       
+       @media #{$breakpoint-xs} {
+            padding: 8rem 0;
+            margin-top: -9rem;
+       }
     }
 
     @media #{$breakpoint-xs} {
@@ -72,7 +77,7 @@
     .nl-content-2 {
         position: relative;
         z-index: 1;
-        text-align: center;
+        text-align: left;
         margin-bottom: 10rem;
         margin-top: -6rem;
         margin-left: 3rem;
@@ -80,6 +85,7 @@
         @media #{$breakpoint-xs} {
             margin-bottom: 15rem;
             margin-left: 0;
+            text-align: center;
         }
 
         h2 {

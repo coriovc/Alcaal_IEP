@@ -19,6 +19,20 @@
         }
     }
 
+    &.desk{
+        display:block;
+        @media #{$breakpoint-xs} {
+            display:none;
+        }
+    }
+
+    &.movil{
+        display:none;
+        @media #{$breakpoint-xs} {
+            display:block;
+        }
+    }
+
     &.padd-serv{
         padding: 0;
         margin-bottom: 15rem;
@@ -128,6 +142,13 @@
                 font-size: 85px;
                 font-weight: 400;
                 line-height: 1;
+                @media #{$breakpoint-xs} {
+                    font-size: 34px;                    
+                }
+            }
+            @media #{$breakpoint-xs} {
+                text-align: left;
+                margin: 0;
             }
     }
     .contenedor{
@@ -163,6 +184,32 @@
             height: 32%;
             }
 
+
+            &.c1-m{
+            height: 85%;
+            margin: 2rem 0;
+            }
+            &.c2-m{
+            height: 85%;
+            margin: 2rem 0;
+            }
+            &.c3-m{
+            height: 85%;
+            margin: 2rem 0;
+            }
+            &.c4-m{
+            height: 85%;
+            margin: 2rem 0;
+            }
+            &.c5-m{
+            height: 85%;
+            margin: 2rem 0;
+            }
+            &.c6-m{
+            height: 85%;
+            margin: 2rem 0;
+            }
+
             .position{
                 color:#fff;
             }
@@ -178,38 +225,74 @@
                 
                 &.f1{
                     background-image: url('./img/bg-img/1-img-a.jpg');
-
-                    @media #{$breakpoint-xs} { background-position-x: 0;}
+                    @media #{$breakpoint-xs} { 
+                        background-position-x: 0;
+                        .numero-outline{
+                            margin-top: 7rem;
+                            margin-left: 3.5rem;
+                        }
+                    }
+                    
                 }
                 &.f2{
                     background-image: url('./img/bg-img/2-img-a.jpg');
                     background-position-x: -10rem;
 
-                    @media #{$breakpoint-xs} { background-position-x: 0;}
+                    @media #{$breakpoint-xs} { 
+                        background-position-x: 0;
+                        .numero-outline{
+                            margin-top: 8.5rem;
+                            margin-left: 2.5rem;
+                        }
+                    }
                 }
                 &.f3{
                     background-image: url('./img/bg-img/3-img-a.jpg');
                     background-position-x: -14rem;
 
-                    @media #{$breakpoint-xs} { background-position-x: 0;}
+                    @media #{$breakpoint-xs} { 
+                        background-position-x: -2rem;
+                        .numero-outline{
+                            margin-top: 8.5rem;
+                            margin-left: 2.5rem;
+                        }
+                    }
                 }
                 &.f4{
                     background-image: url('./img/bg-img/4-img-a.jpg');
                     background-position-x: -15rem;
 
-                    @media #{$breakpoint-xs} { background-position-x: 0;}
+                    @media #{$breakpoint-xs} { 
+                        background-position-x: -1rem;
+                        .numero-outline{
+                            margin-top: 8.5rem;
+                            margin-left: 2rem;
+                        }
+                    }
                 }
                 &.f5{
                     background-image: url('./img/bg-img/5-img-a.jpg');
                     background-position-x: -13rem;
 
-                    @media #{$breakpoint-xs} { background-position-x: 0;}
+                    @media #{$breakpoint-xs} { 
+                        background-position-x: 0;
+                        .numero-outline{
+                            margin-top: 8.5rem;
+                            margin-left: 2.5rem;
+                        }
+                    }
                 }
                 &.f6{
                     background-image: url('./img/bg-img/6-img-a.jpg');
                     background-position-x: -20rem;
 
-                    @media #{$breakpoint-xs} { background-position-x: 0;}
+                    @media #{$breakpoint-xs} { 
+                        background-position-x: 0;
+                        .numero-outline{
+                            margin-top: 8.5rem;
+                            margin-left: 2.5rem;
+                        }
+                    }
                 }
             }
     }
@@ -223,6 +306,31 @@
         float: right;
         margin-top: 50%;
         
+        @media #{$breakpoint-xs} {
+            width: 55%;
+            margin-top: 1rem;
+        }
+
+            &.ca1{
+            margin-top: 1rem;
+            }
+            &.ca2{
+            margin-top: 6rem;
+            }
+            &.ca3{
+            margin-top: 1rem;
+            }
+            &.ca4{
+            margin-top: 7rem;
+            }
+            &.ca5{
+            margin-top: 7rem;
+            }
+            &.ca6{
+            margin-top: 4.5rem;
+            }
+
+
         .card-body{
             padding: 2rem;
             padding-right: 1rem;
@@ -239,9 +347,12 @@
                 color: $primary;
                 &.small{
                   font-size: 28px;
+                  @media #{$breakpoint-xs} {
+                    font-size: 15px;
+                }
                 }
                 @media #{$breakpoint-xs} {
-                    font-size: 25px;
+                    font-size: 15px;
                     margin-bottom: 10px;
                 }
             }
@@ -272,6 +383,10 @@
                     line-height: 1.2;
                     margin-right: 0.3rem;
                     font-weight: 900;
+                    @media #{$breakpoint-xs} {
+                        font-size: 9px;
+                        line-height: 1.5;
+                    }
                 }
 
                 li{
@@ -279,6 +394,11 @@
                     font-size: 13px;
                     margin-bottom: 10px;
                     
+                    @media #{$breakpoint-xs} {
+                        font-size: 9px;
+                        margin-bottom: 0;
+                    }
+
                     &.title{
                         color:$primary;
                         font-weight: 600;

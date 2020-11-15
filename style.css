@@ -676,7 +676,7 @@ input:focus {
     padding-bottom: 0; }
     @media only screen and (max-width: 767px) {
       .about-area.padd-about {
-        padding: 23rem 1.5rem;
+        padding: 14rem 1.5rem;
         overflow-x: hidden;
         margin-bottom: 0;
         padding-bottom: 9rem; } }
@@ -733,11 +733,14 @@ input:focus {
       color: #fff;
       font-weight: 400;
       line-height: 1; }
+      @media only screen and (max-width: 767px) {
+        .about-area .lateral-content-select h3 {
+          font-size: 18px; } }
     @media only screen and (max-width: 767px) {
       .about-area .lateral-content-select {
-        width: 75%;
-        margin-top: 0;
-        margin-right: -6rem; } }
+        width: 35%;
+        margin-top: -13.5rem;
+        margin-right: -3.5rem; } }
   .about-area .img-lateral-about {
     width: 65%;
     position: absolute;
@@ -759,9 +762,9 @@ input:focus {
     margin-right: -17rem; }
     @media only screen and (max-width: 767px) {
       .about-area .img-lateral-select {
-        width: 75%;
-        margin-top: 0;
-        margin-right: -6rem; } }
+        width: 56%;
+        margin-top: -4rem;
+        margin-right: -2.5rem; } }
   .about-area .img-lateral-select-2 {
     width: 34%;
     position: absolute;
@@ -771,9 +774,9 @@ input:focus {
     margin-right: -18rem; }
     @media only screen and (max-width: 767px) {
       .about-area .img-lateral-select-2 {
-        width: 75%;
-        margin-top: 0;
-        margin-right: -6rem; } }
+        width: 35%;
+        margin-top: -15rem;
+        margin-right: -2.5rem; } }
   .about-area .img-lateral {
     width: 27%;
     position: absolute;
@@ -825,10 +828,16 @@ input:focus {
       font-size: 15px; }
   .about-area .card {
     border: none; }
+    @media only screen and (max-width: 767px) {
+      .about-area .card {
+        margin-bottom: 1.2rem; } }
     .about-area .card .card-header {
       background: none;
       border: none;
       cursor: pointer; }
+      @media only screen and (max-width: 767px) {
+        .about-area .card .card-header {
+          padding: 0; } }
       .about-area .card .card-header h5 {
         font-size: 28px;
         font-weight: 600;
@@ -841,6 +850,14 @@ input:focus {
           transition-duration: 500ms; }
           .about-area .card .card-header h5 img.rotate {
             transform: rotate(45deg); }
+          @media only screen and (max-width: 767px) {
+            .about-area .card .card-header h5 img {
+              margin-right: 10px;
+              width: 25px; } }
+        @media only screen and (max-width: 767px) {
+          .about-area .card .card-header h5 {
+            font-size: 18px;
+            font-weight: 500; } }
       .about-area .card .card-header:focus h5 img, .about-area .card .card-header:hover h5 img {
         transform: rotate(45deg); }
     .about-area .card .card-body {
@@ -859,6 +876,19 @@ input:focus {
           color: #04948A;
           font-weight: 600;
           margin-left: -2rem; }
+      @media only screen and (max-width: 767px) {
+        .about-area .card .card-body {
+          margin-left: 0; }
+          .about-area .card .card-body .our-link i {
+            color: #04948A;
+            font-size: 15px;
+            line-height: 1.8;
+            margin-right: 0.6rem;
+            font-weight: 900; }
+          .about-area .card .card-body .our-link li {
+            font-size: 13px; }
+            .about-area .card .card-body .our-link li.title {
+              margin-left: -1rem; } }
   .about-area .nl-content {
     position: relative;
     z-index: 1;
@@ -867,7 +897,8 @@ input:focus {
       margin-left: 15px; }
     @media only screen and (max-width: 767px) {
       .about-area .nl-content {
-        width: 100%; } }
+        width: 100%;
+        margin-top: 3rem; } }
     .about-area .nl-content h2 {
       font-size: 75px;
       display: block;
@@ -880,7 +911,8 @@ input:focus {
       @media only screen and (max-width: 767px) {
         .about-area .nl-content h2 {
           font-size: 40px;
-          margin-bottom: 1rem; } }
+          margin-bottom: 1rem;
+          width: 50%; } }
     .about-area .nl-content h3 {
       font-size: 32px;
       display: block;
@@ -893,7 +925,8 @@ input:focus {
         margin-right: 6rem; }
         @media only screen and (max-width: 767px) {
           .about-area .nl-content h3.b {
-            margin-right: 0; } }
+            margin-right: 0;
+            width: 80%; } }
       .about-area .nl-content h3 span {
         color: #04948A; }
       @media only screen and (max-width: 767px) {
@@ -1052,6 +1085,9 @@ input:focus {
     margin-bottom: 8rem; }
     .plants-area .separa.fin {
       margin-bottom: 0rem; }
+    @media only screen and (max-width: 767px) {
+      .plants-area .separa {
+        margin-bottom: 4rem; } }
   .plants-area .nl-content {
     position: relative;
     z-index: 1;
@@ -1060,7 +1096,8 @@ input:focus {
     margin-left: 2rem; }
     @media only screen and (max-width: 767px) {
       .plants-area .nl-content {
-        width: 100%; } }
+        width: 100%;
+        margin-left: 1.1rem; } }
     .plants-area .nl-content h2 {
       font-size: 28px;
       display: block;
@@ -1068,8 +1105,8 @@ input:focus {
       color: #04948A; }
       @media only screen and (max-width: 767px) {
         .plants-area .nl-content h2 {
-          font-size: 40px;
-          margin-bottom: 1rem; } }
+          font-size: 20px;
+          margin: 0.5rem 0; } }
     .plants-area .nl-content h4 {
       font-size: 16px;
       display: block;
@@ -1437,6 +1474,16 @@ input:focus {
         overflow-x: hidden;
         margin-bottom: 0;
         padding-bottom: 1rem; } }
+  .services-area.desk {
+    display: block; }
+    @media only screen and (max-width: 767px) {
+      .services-area.desk {
+        display: none; } }
+  .services-area.movil {
+    display: none; }
+    @media only screen and (max-width: 767px) {
+      .services-area.movil {
+        display: block; } }
   .services-area.padd-serv {
     padding: 0;
     margin-bottom: 15rem; }
@@ -1517,6 +1564,13 @@ input:focus {
       font-size: 85px;
       font-weight: 400;
       line-height: 1; }
+      @media only screen and (max-width: 767px) {
+        .services-area .content-text h2 {
+          font-size: 34px; } }
+    @media only screen and (max-width: 767px) {
+      .services-area .content-text {
+        text-align: left;
+        margin: 0; } }
   .services-area .contenedor {
     width: 100%;
     height: 35%;
@@ -1538,6 +1592,24 @@ input:focus {
       height: 30%; }
     .services-area .contenedor.c6 {
       height: 32%; }
+    .services-area .contenedor.c1-m {
+      height: 85%;
+      margin: 2rem 0; }
+    .services-area .contenedor.c2-m {
+      height: 85%;
+      margin: 2rem 0; }
+    .services-area .contenedor.c3-m {
+      height: 85%;
+      margin: 2rem 0; }
+    .services-area .contenedor.c4-m {
+      height: 85%;
+      margin: 2rem 0; }
+    .services-area .contenedor.c5-m {
+      height: 85%;
+      margin: 2rem 0; }
+    .services-area .contenedor.c6-m {
+      height: 85%;
+      margin: 2rem 0; }
     .services-area .contenedor .position {
       color: #fff; }
     .services-area .contenedor .img {
@@ -1553,37 +1625,55 @@ input:focus {
         background-image: url("./img/bg-img/1-img-a.jpg"); }
         @media only screen and (max-width: 767px) {
           .services-area .contenedor .img.f1 {
-            background-position-x: 0; } }
+            background-position-x: 0; }
+            .services-area .contenedor .img.f1 .numero-outline {
+              margin-top: 7rem;
+              margin-left: 3.5rem; } }
       .services-area .contenedor .img.f2 {
         background-image: url("./img/bg-img/2-img-a.jpg");
         background-position-x: -10rem; }
         @media only screen and (max-width: 767px) {
           .services-area .contenedor .img.f2 {
-            background-position-x: 0; } }
+            background-position-x: 0; }
+            .services-area .contenedor .img.f2 .numero-outline {
+              margin-top: 8.5rem;
+              margin-left: 2.5rem; } }
       .services-area .contenedor .img.f3 {
         background-image: url("./img/bg-img/3-img-a.jpg");
         background-position-x: -14rem; }
         @media only screen and (max-width: 767px) {
           .services-area .contenedor .img.f3 {
-            background-position-x: 0; } }
+            background-position-x: -2rem; }
+            .services-area .contenedor .img.f3 .numero-outline {
+              margin-top: 8.5rem;
+              margin-left: 2.5rem; } }
       .services-area .contenedor .img.f4 {
         background-image: url("./img/bg-img/4-img-a.jpg");
         background-position-x: -15rem; }
         @media only screen and (max-width: 767px) {
           .services-area .contenedor .img.f4 {
-            background-position-x: 0; } }
+            background-position-x: -1rem; }
+            .services-area .contenedor .img.f4 .numero-outline {
+              margin-top: 8.5rem;
+              margin-left: 2rem; } }
       .services-area .contenedor .img.f5 {
         background-image: url("./img/bg-img/5-img-a.jpg");
         background-position-x: -13rem; }
         @media only screen and (max-width: 767px) {
           .services-area .contenedor .img.f5 {
-            background-position-x: 0; } }
+            background-position-x: 0; }
+            .services-area .contenedor .img.f5 .numero-outline {
+              margin-top: 8.5rem;
+              margin-left: 2.5rem; } }
       .services-area .contenedor .img.f6 {
         background-image: url("./img/bg-img/6-img-a.jpg");
         background-position-x: -20rem; }
         @media only screen and (max-width: 767px) {
           .services-area .contenedor .img.f6 {
-            background-position-x: 0; } }
+            background-position-x: 0; }
+            .services-area .contenedor .img.f6 .numero-outline {
+              margin-top: 8.5rem;
+              margin-left: 2.5rem; } }
   .services-area .card {
     border: none;
     z-index: 2;
@@ -1592,6 +1682,22 @@ input:focus {
     width: 70%;
     float: right;
     margin-top: 50%; }
+    @media only screen and (max-width: 767px) {
+      .services-area .card {
+        width: 55%;
+        margin-top: 1rem; } }
+    .services-area .card.ca1 {
+      margin-top: 1rem; }
+    .services-area .card.ca2 {
+      margin-top: 6rem; }
+    .services-area .card.ca3 {
+      margin-top: 1rem; }
+    .services-area .card.ca4 {
+      margin-top: 7rem; }
+    .services-area .card.ca5 {
+      margin-top: 7rem; }
+    .services-area .card.ca6 {
+      margin-top: 4.5rem; }
     .services-area .card .card-body {
       padding: 2rem;
       padding-right: 1rem; }
@@ -1606,9 +1712,12 @@ input:focus {
         color: #04948A; }
         .services-area .card .card-body h2.small {
           font-size: 28px; }
+          @media only screen and (max-width: 767px) {
+            .services-area .card .card-body h2.small {
+              font-size: 15px; } }
         @media only screen and (max-width: 767px) {
           .services-area .card .card-body h2 {
-            font-size: 25px;
+            font-size: 15px;
             margin-bottom: 10px; } }
       .services-area .card .card-body p {
         margin-bottom: 0;
@@ -1629,10 +1738,18 @@ input:focus {
         line-height: 1.2;
         margin-right: 0.3rem;
         font-weight: 900; }
+        @media only screen and (max-width: 767px) {
+          .services-area .card .card-body .our-link i {
+            font-size: 9px;
+            line-height: 1.5; } }
       .services-area .card .card-body .our-link li {
         color: #5D5C60;
         font-size: 13px;
         margin-bottom: 10px; }
+        @media only screen and (max-width: 767px) {
+          .services-area .card .card-body .our-link li {
+            font-size: 9px;
+            margin-bottom: 0; } }
         .services-area .card .card-body .our-link li.title {
           color: #04948A;
           font-weight: 600;
@@ -2525,9 +2642,10 @@ textarea.form-control {
       margin: 16px 0; }
       @media only screen and (max-width: 767px) {
         .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.item-menu {
-          font-size: 25px; } }
+          font-size: 25px;
+          margin: 16px 0; } }
       .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.item-menu:focus, .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.item-menu:hover {
-        color: #000000; }
+        color: #04948A; }
         .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.item-menu:focus::after, .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.item-menu:hover::after {
           content: '';
           position: absolute;
@@ -2553,7 +2671,7 @@ textarea.form-control {
         content: none;
         width: auto; }
     .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.mega-item {
-      color: #000000; }
+      color: #04948A; }
       .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.mega-item::after {
         content: '';
         position: absolute;
@@ -2597,7 +2715,7 @@ textarea.form-control {
     .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.link:hover {
       color: #04948A; }
     .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li.current-item a {
-      color: #000000; }
+      color: #04948A; }
       .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li.current-item a.item-menu::after {
         content: '';
         position: absolute;
@@ -2676,19 +2794,13 @@ textarea.form-control {
           font-size: 18px;
           text-transform: capitalize;
           color: #5D5C60;
-          margin: 30px 0; }
+          margin: 16px 0; }
           .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a:focus, .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a:hover {
             color: #04948A; }
-          @media only screen and (min-width: 992px) and (max-width: 1199px) {
-            .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a {
-              font-size: 14px;
-              padding: 0 10px; } }
-          @media only screen and (min-width: 768px) and (max-width: 991px) {
-            .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a {
-              font-size: 14px; } }
           @media only screen and (max-width: 767px) {
             .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a {
-              font-size: 25px; } }
+              font-size: 25px;
+              margin: 30px 0; } }
           .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a::after {
             content: none;
             width: auto; }
@@ -2715,7 +2827,7 @@ textarea.form-control {
           .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a.link:hover {
             color: #04948A; }
         .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li.current-item a {
-          color: #000000; }
+          color: #04948A; }
           .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li.current-item a::after {
             content: '';
             position: absolute;
@@ -2821,7 +2933,7 @@ textarea.form-control {
           .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a.link:hover {
             color: #04948A; }
           .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a.mega-item {
-            color: #000000; }
+            color: #04948A; }
             .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a.mega-item::after {
               content: '';
               position: absolute;
@@ -4061,6 +4173,10 @@ textarea.form-control {
   .sec-footer-area.exper {
     padding: 13rem 0;
     margin-top: -5rem; }
+    @media only screen and (max-width: 767px) {
+      .sec-footer-area.exper {
+        padding: 8rem 0;
+        margin-top: -9rem; } }
   @media only screen and (max-width: 767px) {
     .sec-footer-area {
       padding: 2rem 2rem 0 2rem;
@@ -4101,14 +4217,15 @@ textarea.form-control {
   .sec-footer-area .nl-content-2 {
     position: relative;
     z-index: 1;
-    text-align: center;
+    text-align: left;
     margin-bottom: 10rem;
     margin-top: -6rem;
     margin-left: 3rem; }
     @media only screen and (max-width: 767px) {
       .sec-footer-area .nl-content-2 {
         margin-bottom: 15rem;
-        margin-left: 0; } }
+        margin-left: 0;
+        text-align: center; } }
     .sec-footer-area .nl-content-2 h2 {
       font-size: 55px;
       display: block;

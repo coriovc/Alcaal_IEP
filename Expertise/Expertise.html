@@ -54,8 +54,8 @@
                             <i class="arrow_right-up icon-link-m d-inline-block d-xl-none"></i>What we do</a></li>
                         
                         <li class="dropdown has-megamenu classynav-lang">
-                            <a class="item-menu mega-item" href="../Expertise.html" key="item-3"><i class="arrow_right-up icon-link-m d-inline-block d-xl-none"></i>Expertise</a>
-                            <div class="dropdown-menu megamenu">
+                            <a class="item-menu mega-item" key="item-3"><i class="arrow_right-up icon-link-m d-inline-block d-xl-none"></i>Expertise<i id="drop" class="arrow_carrot-down"></i></a>
+                            <div class="dropdown-menu block megamenu">
                               <div class="row justify-content-end">
                                 
                                 <div class="col-lg-5 margin-auto"><div class="mega-menu-text text-right justify-content-end d-none d-xl-flex">
@@ -63,53 +63,55 @@
                                         
                                 <div class="col-lg-3">                                  
                                   <ul class="link">
-                                      <li><a class="link" href="Industrial_plants.html" target="_blank">
+                                      <li><a class="link" href="Industrial_plants.html">
                                         <i class="arrow_right-up icon-zise mr-2"></i>Industrial plants</a></li>
-                                      <li><a class="link" href="" target="_blank">
+                                      <li><a class="link" href="Fertilizer_Industry.html">
                                         <i class="arrow_right-up icon-zise mr-2"></i>Fertilizer Industry</a></li>
-                                      <li><a class="link" href="" target="_blank">
+                                      <li><a class="link" href="Feedlots.html">
                                         <i class="arrow_right-up icon-zise mr-2"></i>Feedlots</a></li>
-                                      <li><a class="link" href="" target="_blank">
+                                      <li><a class="link" href="Milling.html">
                                         <i class="arrow_right-up icon-zise mr-2"></i>Milling</a></li>
-                                      <li><a class="link" href="">
+                                      <li><a class="link" href="SCP.html">
                                         <i class="arrow_right-up icon-zise mr-2"></i>Seed Classification Plants</a></li>
-                                      <li><a class="link" href="" target="_blank">
+                                      <li><a class="link" href="GCS.html">
                                         <i class="arrow_right-up icon-zise mr-2"></i>Grain Conditioning and Storage</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-3">                                  
                                   <ul class="link">
-                                      <li><a class="link" href="" target="_blank">
+                                      <li><a class="link" href="Plants.html">
                                         <i class="arrow_right-up icon-zise mr-2"></i>Plants</a></li>
-                                      <li><a class="link" href="" target="_blank">
+                                      <li><a class="link" href="Port_Facilities.html">
                                         <i class="arrow_right-up icon-zise mr-2"></i>Port Facilities</a></li>
-                                      <li><a class="link" href="" target="_blank">
+                                      <li><a class="link" href="Industrial_OCP.html">
                                         <i class="arrow_right-up icon-zise mr-2"></i>Industrial Oil Complex and Port </a></li>
-                                      <li><a class="link" href="" target="_blank">
+                                      <li><a class="link" href="Facilities.html">
                                         <i class="arrow_right-up icon-zise mr-2"></i>Facilities</a></li>
-                                      <li><a class="link" href="">
+                                      <li><a class="link" href="CAA.html">
                                         <i class="arrow_right-up icon-zise mr-2"></i>Consulting, Audit & Analysis</a></li>
-                                      <li><a class="link" href="" target="_blank">
+                                      <li><a class="link" href="Agro_Industrial_Poles.html">
                                         <i class="arrow_right-up icon-zise mr-2"></i>Agro Industrial Poles</a></li>
                                     </ul>
                                 </div>
                               </div> 
                             </div>
                         </li>
+                        
                         <li class="head-lang"><a key="item-4" class="item-menu" href="../Selected_Projects.html">
                             <i class="arrow_right-up icon-link-m d-inline-block d-xl-none"></i>Selected Projects</a></li>
                         <li class="head-lang"><a key="item-5" class="item-menu" href="../Contact.html">
                             <i class="arrow_right-up icon-link-m d-inline-block d-xl-none"></i>Contact</a></li>
 
-                      </ul>                            
-                        
-                        <div class="check-lang">
-                            <hr class="mb-4 d-block d-xl-none" >
-                            <label class="switch-lang" key="check-l">
-                              <input class="langClass" type="checkbox" data-lang="es"><div></div>
-                            </label>
-                            <hr class="mt-4 d-block d-xl-none">
+                      </ul>
+                      <hr class="mb-4 d-block d-xl-none">                          
+                      <div class="dropdown lang">
+                        <button class="btn uza-btn btn-lang dropdown-toggle" type="button" id="lang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" key="select-lang">ENG</button>
+                        <div class="dropdown-menu" aria-labelledby="lang">
+                          <button class="dropdown-item active" type="button" onclick="setLanguage('en')">English</button>
+                          <button class="dropdown-item" type="button" onclick="setLanguage('es')">Español</button>
+                          <button class="dropdown-item" type="button" onclick="setLanguage('pt')">Portugués</button>
                         </div>
+                      </div>
                     </div>
                     <!-- Nav End -->
                     </div>
@@ -140,7 +142,7 @@
     <section class="plants-area">
         <div class="container align-items-center justify-content-center">
           <div class="row separa">
-              <div class="col-12 col-md-6 col-lg-6 text-right"> 
+              <div class="col-12 col-md-6 col-lg-6 text-center"> 
                 <img src="../img/bg-img/plant-1.png" class="img-exper">
               </div>
               <div class="col-12 col-md-5 col-lg-5 nl-content"> 
@@ -151,7 +153,7 @@
               </div>
           </div>
           <div class="row separa">
-              <div class="col-12 col-md-6 col-lg-6 text-right"> 
+              <div class="col-12 col-md-6 col-lg-6 text-center"> 
                 <img src="../img/bg-img/plant-2.png" class="img-exper">
               </div>
               <div class="col-12 col-md-5 col-lg-5 nl-content"> 
@@ -162,7 +164,7 @@
               </div>
           </div> 
           <div class="row separa fin">
-              <div class="col-12 col-md-6 col-lg-6 text-right"> 
+              <div class="col-12 col-md-6 col-lg-6 text-center"> 
                 <img src="../img/bg-img/plant-3.png" class="img-exper">
               </div>
               <div class="col-12 col-md-5 col-lg-5 nl-content"> 
@@ -191,12 +193,15 @@
               </div>
               <div class="col-6 col-sm-5 col-lg-2">
                 <div class="single-footer-widget">                      
-                    <div class="row footer-social-info mb-4 text-right footer check-lang"> 
-                        <p key="text-sn-mov" class="sub mb-2 mr-2">Social<br>networks</p>                           
-                        <a href="#"><i class="fa fa-linkedin"></i></a>       
-                        <label class="switch-lang-foo" key="check-l">
-                            <input class="langClass" type="checkbox" data-lang="es"><div></div>
-                        </label>                     
+                    <div class="row footer-social-info mb-4 footer check-lang justify-content-end"> 
+                        <div class="dropdown lang">
+                        <button class="btn uza-btn btn-lang foo dropdown-toggle" type="button" id="lang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" key="select-lang">ENG</button>
+                        <div class="dropdown-menu" aria-labelledby="lang">
+                          <button class="dropdown-item active" type="button" onclick="setLanguage('en')">English</button>
+                          <button class="dropdown-item" type="button" onclick="setLanguage('es')">Español</button>
+                          <button class="dropdown-item" type="button" onclick="setLanguage('pt')">Portugués</button>
+                        </div>
+                      </div>                   
                     </div>
                 </div>
               </div> 
@@ -215,7 +220,7 @@
                 </div>     
 
                 <!-- Single Footer Widget -->
-                <div class="col-5 col-sm-4 col-lg-4">
+                <div class="col-5 col-sm-5 col-lg-5 d-none d-xl-block">
                   <div class="single-footer-widget">                        
                         <!-- Footer Content -->
                         <div class="footer-content mb-15 footer">
@@ -230,7 +235,7 @@
                 </div>  
 
                 <!-- Single Footer Widget -->
-                <div class="col-5 col-sm-3 col-lg-3">
+                <div class="col-6 col-sm-3 col-lg-3">
                     <div class="single-footer-widget">
                         <!-- Nav -->
                         <nav>
@@ -240,7 +245,7 @@
                                 <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
                                   <a key="link-text-2" href="../What_we_do.html">What we do</a></li>
                                   <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
-                                  <a key="link-text-2" href="../Expertise.html">Expertise</a></li>
+                                  <a key="link-text-2" href="Industrial_plants.html">Expertise</a></li>
                                   <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
                                   <a key="link-text-2" href="../Selected_Proyects.html">Selected Proyects</a></li>
                                 <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
@@ -248,16 +253,41 @@
                             </ul>
                         </nav>
                     </div>
-                </div>                   
+                    <div class="single-footer-widget mt-4 d-block d-xl-none">                        
+                        <!-- Footer Content -->
+                        <div class="footer-content mb-15 footer">
+                            <p>2020 © IEP Global.</p>
+                            <p>Todos los derechos reservados.</p>
+                        </div>
+                  </div>
+                </div>
+
+                <!-- Single Footer Widget -->
+                <div class="col-5 col-sm-5 col-lg-5 d-block d-xl-none">
+                  <div class="single-footer-widget">                        
+                        <!-- Footer Content -->
+                        <div class="footer-content mb-15 footer">
+                            <p key="info-text-1" class="sub">Postal Address</p>
+                            <p>Edificio Presidente - Largo 17 de Setembro Nº 3, Piso 2, Sala 227<br> Bairro Ingombota - Distrito Urbano da Ingombota<br> Luanda - Angola</p>
+                        </div>
+                        <div class="footer-content mb-15">
+                            <p class="sub">E-mail</p>
+                            <p>info@iep.global</p>
+                        </div>
+                  </div>
+                </div> 
+
                 <!-- Single Footer Widget -->
                 <div class="col-5 col-sm-1 col-lg-1 d-none d-xl-flex">
-                    <div class="single-footer-widget">                      
-                        <div class="footer-social-info mb-4 footer check-lang">                                   
-                            <label class="switch-lang-foo" key="check-l">
-                              <input class="langClass" type="checkbox" data-lang="es"><div></div>
-                            </label>                     
+                    <div class="single-footer-widget">                                                         
+                      <div class="dropdown lang">
+                        <button class="btn uza-btn btn-lang foo dropdown-toggle" type="button" id="lang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" key="select-lang">ENG</button>
+                        <div class="dropdown-menu" aria-labelledby="lang">
+                          <button class="dropdown-item active" type="button" onclick="setLanguage('en')">English</button>
+                          <button class="dropdown-item" type="button" onclick="setLanguage('es')">Español</button>
+                          <button class="dropdown-item" type="button" onclick="setLanguage('pt')">Portuguez</button>
                         </div>
-
+                      </div>   
                     </div>
                 </div> 
             </div>

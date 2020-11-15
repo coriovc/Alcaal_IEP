@@ -109,12 +109,13 @@
                     margin: 16px 0;
 
                     @media #{$breakpoint-xs} {
-                        font-size:25px
+                        font-size:25px;
+                        margin: 16px 0;
                     }
 
                     &:focus,
                     &:hover {
-                        color: $dark;                    
+                        color: $primary;                    
                         &::after {
                                 content: '';
                                 position: absolute;
@@ -149,7 +150,7 @@
                   }
 
                   &.mega-item{
-                    color: $dark;                    
+                    color: $primary;                    
                         &::after {
                                 content: '';
                                 position: absolute;
@@ -207,7 +208,7 @@
 
                 &.current-item {
                     a {
-                        color: $dark;
+                        color: $primary;
                         &.item-menu{
 
                             &::after {
@@ -322,7 +323,7 @@
                     font-size: 18px;
                     text-transform: capitalize;
                     color: $c-gray;
-                    margin: 30px 0;
+                    margin: 16px 0;
 
                     &:focus,
                     &:hover {
@@ -330,17 +331,9 @@
                         
                     }
 
-                    @media #{$breakpoint-lg} {
-                        font-size: 14px;
-                        padding: 0 10px;
-                    }
-
-                    @media #{$breakpoint-md} {
-                        font-size: 14px;
-                    }
-
                     @media #{$breakpoint-xs} {
                         font-size: 25px;
+                        margin: 30px 0;
                     }
 
                     &::after {
@@ -382,7 +375,7 @@
 
                 &.current-item {
                     a {
-                        color: $dark;
+                        color: $primary;
                         &::after {
                             content: '';
                             position: absolute;
@@ -529,7 +522,7 @@
                     }
 
                     &.mega-item{
-                      color: $dark;                    
+                      color: $primary;                    
                         &::after {
                                 content: '';
                                 position: absolute;
