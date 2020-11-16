@@ -1,133 +1,191 @@
 {   
     
     ".head-lang":{
-        "item-1" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Empresa",
-            "item-1-a" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Sobre nosotros",
-            "item-1-b" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Nuestro equipo",
-        "item-2" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Servicios",
-        "item-3" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Contacto",
-        "btn-lang" : "<a id=\"lang\" class=\"btn uza-btn btn-lang langClass\" data-lang=\"en\">ENG</a>"
+        "item-1" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Acerca de",
+        "item-2" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Que hacemos",        
+        "item-3" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Pericia<i id=\"drop\" class=\"arrow_carrot-down\"></i>",
+            "item-3-a" : "The gateway to<br>Agri-business",
+            "item-3-1" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Industrial plants",
+            "item-3-2" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Fertilizer Industry",
+            "item-3-3" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Feedlots",
+            "item-3-4" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Milling",
+            "item-3-5" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Seed Classification Plants",
+            "item-3-6" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Grain Conditioning and Storage",
+            "item-3-7" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Plants",
+            "item-3-8" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Port Facilities",
+            "item-3-9" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Industrial Oil Complex and Port",
+            "item-3-10" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Facilities",
+            "item-3-11" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Consulting, Audit & Analysis",
+            "item-3-12" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Agro Industrial Poles",
+        "item-4" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Selected Projects",
+        "item-5" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Contact",
+
+        "select-lang" : "ESP",
+        "select-idioma" :"<button class=\"dropdown-item\" type=\"button\" onclick=\"setLanguage('en')\">English</button><button class=\"dropdown-item active\" type=\"button\" onclick=\"setLanguage('es')\">Español</button><button class=\"dropdown-item\" type=\"button\" onclick=\"setLanguage('pt')\">Portugués</button>"
     },
 
     ".welcome-area-lang":{
-        "section_title" : "Conocemos<br>tu agroindustria",
-        "parrafo":"Más de 16 años brindando servicios de diseño, construcción, y administración y consultoría de calidad a nivel global, en toda la cadena de valor agroindustrial"
+        "parrafo":"years of experience in Agriculture, Energy, Port facilities and multiple industries."
     },
 
-    ".wwd":{
-        "title-1" : "Qué hacemos",
+    ".sec-1-lang":{
+        "title-lateral" : "Should we<br>get started?",
+        "btn-lateral" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Contact us",
 
-        "text-1" : "Servicios de gestión y consultoría",
-        "parrafo-1" : "Nuestro equipo altamente calificado participó en una amplia gama de proyectos en América Latina y África.",
-        
-        "text-2" : "Desarrollo agrícola",
-        "parrafo-2" : "Nuestro equipo profesional ha desarrollado estudios y proyectos relacionados con la agricultura en varios campos de acción.",
-
-        "text-3" : "Ingeniería de PROYECTO",
-        "parrafo-3" : "Equipo de especialistas con más de 40 años de experiencias en el diseño, construcción y explotación de complejos agroindustriales",
-
-        "btn-more" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>MÁS INFO"
+        "text-title" : "We are the gateway",
+        "text-title-b" : "to Agri-business for the leading companies.<br><span>Know more about us.</span>",
+        "btn" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>About IEP"
     },
 
-    ".exper":{
-        "sub-title" : "NUESTRA EXPERIENCIA_",
-        "text-title" : "Por qué Alcaal Agribusiness",
+    ".wwd-lang":{
+        "title-1" : "What we do",
+        "title-2" : "We know what we are doing. Our Areas of Expertise.",
 
-        "text-1" : "Experiencia<br> y trayectoria",
-        "text-1-p" : "Equipo de expertos con +40 años de experiencia.",
+        "text-1" : "Feasibility Studies",
+        "text-2" : "Bulk Cereal Handling",
+        "text-3" : "Oil Extraction Process and Grain Products",
+        "text-4" : "Agro Industries",
+        "text-5" : "Livestock",
 
-        "text-2" : "Tecnología <br> de vanguardia",
-        "text-2-p" : "Actualización permanente de nuestros equipos y sistemas",
+        "btn-more" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>MORE INFO"
+    },
 
-        "text-3" : "Alta <br> calidad",
-        "text-3-p" : "Alta calidad en el diseño, desarrollo y ejecución de proyectos.",
+    ".sec-2-lang":{
+        "title" : "We are an engineering company based in Angola and Argentina, with strong global reach.",
+        "span" : "OUR PROFILE"
+    },
 
-        "text-4" : "Responsabilidad <br> social",
-        "text-4-p" : "La autosuficiencia alimentaria, la sustitución de importaciones, la lucha contra el hambre y la agricultura familiar han sido pilares fundamentales de todos los proyectos.",
+    ".sec-3-lang":{
+        "title" : "Our Business Structure",
 
-        "btn-team" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>CONOCÉ AL EQUIPO"
+        "list-1" : "<i class=\"icon_check\"></i>Industrial plants",
+        "list-2" : "<i class=\"icon_check\"></i>Fertilizer Industry",
+        "list-3" : "<i class=\"icon_check\"></i>Feedlots",
+        "list-4" : "<i class=\"icon_check\"></i>Milling",
+        "list-5" : "<i class=\"icon_check\"></i>Seed Classification Plants",
+        "list-6" : "<i class=\"icon_check\"></i>Grain Conditioning and Storage Plants",
+        "list-7" : "<i class=\"icon_check\"></i>Port Facilities",
+        "list-8" : "<i class=\"icon_check\"></i>Industrial Oil Complex and Port Facilities",
+        "list-9" : "<i class=\"icon_check\"></i>Consulting, Audit & Analysis"
     },
 
 
-    ".partn":{
-        "sub-title" : "SOCIOS_",
-        "text-title" : "Socios estratégicos",
-        "text-parr" : "Nuestro equipo de expertos se ha asociado con una amplia gama de organizaciones locales e internacionales que van desde gobiernos nacionales y provinciales hasta corporaciones multinacionales, DFI’s y ONG."
+    ".part-lang":{
+        "title" : "Companies that trust us"
     },
 
-    ".Project":{
-        "text-title" : "¿Tienes un proyecto?",
-        "btn" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>HABLEMOS"
+    ".sec-footer-lang":{
+        "text-title" : "At IEP Global",
+        "text-pa" : "we have the know-how, the structure and experience to ensure management professionalism and transparency.",
+        "btn" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Let´s talk"
     },
 
     
-    ".footer":{
-        "text-sn-mov" : "Redes<br>sociales",
-        "text-sn" : "Redes sociales",
-        
-        "gracias":"¡Muchas gracias!",
-        "parrafo-gracias":"El formulario fue enviado con éxito, en un futuro próximo nos contactaremos.",
+    ".footer-lang":{
+        "copyr" : "All rights reserved.", 
 
+        "link-text-1" : "About",
+        "link-text-2" : "What we do",
+        "link-text-3" : "Expertise",
+        "link-text-4" : "Selected Proyects",
+        "link-text-5" : "Contact",
 
-        "link-text-1" : "Empresa",
-        "link-text-2" : "Servicios",
-        "link-text-3" : "Contacto",
+        "info-text-1" : "Postal Address",
 
-        "info-text-1" : "Dirección postal",
-        "info-text-2" : "Teléfono"
+        "select-lang" : "ESP",
+        "select-idioma" :"<button class=\"dropdown-item\" type=\"button\" onclick=\"setLanguage('en')\">English</button><button class=\"dropdown-item active\" type=\"button\" onclick=\"setLanguage('es')\">Español</button><button class=\"dropdown-item\" type=\"button\" onclick=\"setLanguage('pt')\">Portugués</button>"
     },
+
+
+
 
     ".about-lang":{
-        "text-title" : "Alcaal Agroindustrial",
-        "text-title-b" : "Tenemos una trayectoria exitosa en servicios relacionados con la agroindustria en más de 12 países y cuatro continentes.",
-        "parrafo-1" : "Brindamos asesoría integral que va desde la selección de tierras productivas y el financiamiento hasta la logística final de los productos procesados.",
-        "parrafo-2" : "Con sede en Buenos Aires, Argentina, ALCAAL Agroindustrial es parte del grupo internacional ALCAAL, enfocado en el desarrollo sustentable de proyectos agroindustriales de alto impacto en economías emergentes.",
+        "text-title" : "About us",
+        "text-title-b" : "Working continuously since 1972 in the development of <span>engineering projects</span> and consultancy specialized in <span>agribusiness</span> and its associated processes.",
+        "parrafo-1" : "Created to offer consultancy in the agricultural market, IEP is the gateway to Agri–business. IEP has the know-how, the structure and experience to ensure management professionalism and transparency. Moreover,in the last fifteen years, IEP has specialized in the production of commodities for agroindustry. And has developed sunflower oil production with high content of oleic acid, among other services to leading companies.",
+        "parrafo-2" : "IEP combines a multi-disciplinary approach with deep, practical industry and agricultural knowledge to help clients meet challenges and respond to opportunities.",
 
-        "list-1" : "<i class=\"icon_check\"></i>Investigación de potencial",
-        "list-2" : "<i class=\"icon_check\"></i>Planificación y análisis",
-        "list-3" : "<i class=\"icon_check\"></i>Relevamiento de mercado",
-        "list-4" : "<i class=\"icon_check\"></i>Desarrollo de proyectos",
-        "list-5" : "<i class=\"icon_check\"></i>Producción",
-        "list-6" : "<i class=\"icon_check\"></i>Comercialización",
+        "text-title-2" : "An abridged overview of IEP`s Services:",
 
-        "btn" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>CONOCÉ AL EQUIPO"
+        "list-1" : "Consultancy and Management",
+        "list-2" : "Cereals and bulk oil",
+        "list-3" : "Procedures for extraction of edible oil and grain derivatives",
+        "list-4" : "Sugar Industry",
+        "list-5" : "Fertilizer Industry",
+        "list-6" : "Wheat and flour mills",
+        "list-7" : "Rice mills",
+
+        "list-8" : "Industrial Personnel training",
+        "list-9" : "Farm land developmen",
+        "list-10" : "Farm personnel and management training",
+        "list-11" : "Livestock",
+        "list-12" : "Seed production",
+        "list-13" : "Forestry",
+        "list-14" : "New crop development",
+        "list-15" : "Irrigation",
+
+        "text-title-foo" : "Know more about our areas of expertise.",
+        "span" : "EXPERTISE",
+
+        "btn" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Our services"
     },
 
-    ".team-lang":{
-        "text-title" : "Nuestro Equipo -  PERSONAS CLAVES",
-        "text-title-b" : "Nuestro equipo de expertos está conformado por agrónomos, gerentes de proyectos, especialistas financieros, especialistas en sustentabilidad y un equipo comercial.",
-        "parrafo-1" : "Elegir el equipo y los profesionales adecuados para llevar a cabo el proyecto, requiere un conocimiento técnico muy profundo. Nuestro equipo cuenta con las herramientas y el personal necesarios para garantizar el éxito de cada proyecto.",
-        "ingagro" : "Ingeniero Agronomo",
-        "ingind" : "Ingeniero Industrial",
-        "lic" : "Lic. Administración de Empresas"
-    },
+    ".wwd-sec-lang":{
+        "text-title" : "What we do",
+        "text-title-b" : "At IEP we have a technical team working for <span>45 years</span> continuously in the development of engineering projects and consultancy specialized in agribusiness and its associated processes.",
+        "parrafo-1" : "We have developed our activities in Argentina, Brazil, Paraguay, Guatemala, Ukraine, Chile, Uruguay, the Philippines, Malaysia, and Angola.",
 
-    ".Services-lang":{
-        "text-title" : "Qué hacemos",
+        "text-title-2" : "An abridged overview of IEP`s Services:",
 
-        "card-title-1" : "Gestión y consultoría",
-        "card-parrafo-1" : "Ofrecemos servicios de diseño, construcción, gestión y consultoría para actividades relacionadas con la producción de alimentos, que van desde la selección de tierras hasta el procesamiento y ventas de los productos, incluyendo análisis de riesgo.",
+        "card-title-1" : "Feasibility studies",
+            "list-1-1" : "Local Resources",
+            "list-1-2" : "Regional Production",
+            "list-1-3" : "Logistic",
+            "list-1-4" : "Energy requirement",
+            "list-1-5" : "Safety and environmental regulation",
+            "list-1-6" : "Economical-Financial Evaluation",
+            "list-1-7" : "Analysis and cost production",
+            "list-1-8" : "Future projections",
+            "list-1-9" : "Investments analysis",
 
-        "card-title-2" : "Desarrollo agrícola",
-        "card-parrafo-2" : "Según la Asociación Internacional de Fomento, el desarrollo agrícola constituye uno de los medios más importantes para poner fin a la pobreza extrema, impulsar la prosperidad compartida y alimentar a una población que se espera llegue a 9700 millones de habitantes en 2050.",
-          "card-parrafo-2a" : "El crecimiento de la agricultura puede resultar hasta cuatro veces más eficaz que el de otros sectores para elevar los ingresos de los más pobres.",
-          "card-parrafo-2b" : "Nuestro equipo profesional ha desarrollado estudios y proyectos relacionados con la agricultura en varios campos de acción.",
+        "card-title-2" : "Bulk Cereal Handling",
+            "list-2-1" : "Storage, Drying and Seed cleaning and classification",
+            "list-2-2" : "Ship and barges loading",
+            "list-2-3" : "Ship and barges unloading",
+            "list-2-4" : "Truck and railroads systems",
+            "list-2-5" : "Special receiving system",
 
-        "card-title-3" : "Ingeniería de Proyecto",
-        "card-parrafo-3" : "Nuestra unidad de negocio de Ingeniería de Proyectos está conformada por un equipo de especialistas con más de 40 años de experiencia en el diseño, construcción y operación de complejos agroindustriales: procesamiento y almacenamiento de granos, extracción de aceite, y puertos agrícolas, entre otros."
+        "card-title-3" : "Oil Extraction Process and Grain Products",
+            "list-3-1" : "Ration",
+            "list-3-2" : "Extraction and refining of oils for food and biofuels.",
+            "list-3-3" : "Corn ethanol extraction and sorghum.",
+            "list-3-4" : "Milling wheat, corn and rice.",
+            "list-3-5" : "Production in subtropical environments and such crops as cotton, edible beans, soy beans, maize and others.",
 
-    },
+        "card-title-4" : "Agro Industries",
+            "list-4-1" : "Fertilizer Industry",
+            "list-4-2" : "Fruit classification and packing",
+            "list-4-3" : "Feed Mills",
+            "list-4-4" : "Sugar mills",
 
-    ".check-lang":{        
-        "check-l":"<input class=\"langClass\" type=\"checkbox\" checked data-lang=\"en\"><div></div>"
+        "card-title-5" : "Livestock",
+            "list-5-1" : "Dairy",
+            "list-5-2" : "Feed Lot",
+            "list-5-3" : "Breading",
+            "list-5-4" : "Fattennig",
 
+        "card-title-6" : "Other Industries",
+            "list-6-1" : "Forestry",
+            "list-6-2" : "Poultry slaughter facilities",
+            "list-6-3" : "Coldstorage",
+            "list-6-4" : "Cement and additives preparation",
+            "list-6-5" : "Infrastructure: electricity, gas, roads, industrial arquitecture"
     },
 
     ".contact-lang":{
         "text-title" : "Contáctanos",
 
         "sub-title-1":"Dirección postal",
-        "sub-title-2":"Teléfono",
 
         "name" : "<input type=\"text\" class=\"form-control\" name=\"name\" placeholder=\"Ingrese su nombre completo\">",
         "phone" : "<input type=\"tel\" class=\"form-control\" name=\"phone\" placeholder=\"Ingrese su número telefónico\">",
