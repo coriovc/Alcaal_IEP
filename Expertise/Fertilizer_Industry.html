@@ -211,9 +211,9 @@
               <div class="col-6 col-sm-5 col-lg-2">
                 <div class="single-footer-widget">                      
                     <div class="row footer-social-info mb-4 footer check-lang justify-content-end"> 
-                        <div class="dropdown lang">
-                        <button class="btn uza-btn btn-lang foo dropdown-toggle" type="button" id="lang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" key="select-lang">ENG</button>
-                        <div class="dropdown-menu" aria-labelledby="lang">
+                      <div class="dropdown lang footer-lang">
+                        <button class="btn uza-btn btn-lang dropdown-toggle" type="button" id="lang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" key="select-lang">ENG</button>
+                        <div class="dropdown-menu" aria-labelledby="lang" key="select-idioma">
                           <button class="dropdown-item active" type="button" onclick="setLanguage('en')">English</button>
                           <button class="dropdown-item" type="button" onclick="setLanguage('es')">Español</button>
                           <button class="dropdown-item" type="button" onclick="setLanguage('pt')">Portugués</button>
@@ -229,9 +229,9 @@
                     <img src="../img/logo-white.svg" alt="" width="180">
                     <div class="single-footer-widget mt-4">                        
                         <!-- Footer Content -->
-                        <div class="footer-content mb-15 footer">
+                        <div class="footer-content mb-15 footer-lang">
                             <p>2020 © IEP Global.</p>
-                            <p>Todos los derechos reservados.</p>
+                            <p key="copyr">All rights reserved.</p>
                         </div>
                   </div>
                 </div>     
@@ -240,7 +240,7 @@
                 <div class="col-5 col-sm-5 col-lg-5 d-none d-xl-block">
                   <div class="single-footer-widget">                        
                         <!-- Footer Content -->
-                        <div class="footer-content mb-15 footer">
+                        <div class="footer-content mb-15 footer-lang">
                             <p key="info-text-1" class="sub">Postal Address</p>
                             <p>Edificio Presidente - Largo 17 de Setembro Nº 3, Piso 2, Sala 227<br> Bairro Ingombota - Distrito Urbano da Ingombota<br> Luanda - Angola</p>
                         </div>
@@ -257,24 +257,24 @@
                         <!-- Nav -->
                         <nav>
                             <ul class="our-link">
-                                <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                <li class="footer-lang footer"><i class="arrow_right-up icon-zise mr-2"></i>
                                   <a key="link-text-1" href="../About.html">About</a></li>
-                                <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                <li class="footer-lang footer"><i class="arrow_right-up icon-zise mr-2"></i>
                                   <a key="link-text-2" href="../What_we_do.html">What we do</a></li>
-                                  <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
-                                  <a key="link-text-2" href="Industrial_plants.html">Expertise</a></li>
-                                  <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
-                                  <a key="link-text-2" href="../Selected_Proyects.html">Selected Proyects</a></li>
-                                <li class="footer"><i class="arrow_right-up icon-zise mr-2"></i>
-                                  <a key="link-text-3" href="../Contact.html">Contact</a></li>
+                                  <li class="footer-lang footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                  <a key="link-text-3" href="Industrial_plants.html">Expertise</a></li>
+                                  <li class="footer-lang footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                  <a key="link-text-4" href="../Selected_Proyects.html">Selected Proyects</a></li>
+                                <li class="footer-lang footer"><i class="arrow_right-up icon-zise mr-2"></i>
+                                  <a key="link-text-5" href="../Contact.html">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="single-footer-widget mt-4 d-block d-xl-none">                        
                         <!-- Footer Content -->
-                        <div class="footer-content mb-15 footer">
+                        <div class="footer-content mb-15 footer-lang">
                             <p>2020 © IEP Global.</p>
-                            <p>Todos los derechos reservados.</p>
+                            <p key="copyr">All rights reserved.</p>
                         </div>
                   </div>
                 </div>
@@ -297,14 +297,16 @@
                 <!-- Single Footer Widget -->
                 <div class="col-5 col-sm-1 col-lg-1 d-none d-xl-flex">
                     <div class="single-footer-widget">                                                         
-                      <div class="dropdown lang">
+                      <div class="dropdown lang footer-lang">
                         <button class="btn uza-btn btn-lang foo dropdown-toggle" type="button" id="lang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" key="select-lang">ENG</button>
-                        <div class="dropdown-menu" aria-labelledby="lang">
+                        <div class="dropdown-menu" aria-labelledby="lang" key="select-idioma">
                           <button class="dropdown-item active" type="button" onclick="setLanguage('en')">English</button>
                           <button class="dropdown-item" type="button" onclick="setLanguage('es')">Español</button>
                           <button class="dropdown-item" type="button" onclick="setLanguage('pt')">Portuguez</button>
                         </div>
-                      </div>   
+                      </div>                    
+                        
+
                     </div>
                 </div> 
             </div>
@@ -315,7 +317,7 @@
     <!-- ******* All JS Files ******* -->
     <!-- jQuery js -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" ></script>
-    <script src="../js/langChange.js"></script>
+    <script src="../js/langChange-ex.js"></script>
     <script src="../js/jquery.min.js"></script>    
     <script src="../js/jquery.easing.min.js"></script>    
     <script src="../js/jquery.validate.js"></script>

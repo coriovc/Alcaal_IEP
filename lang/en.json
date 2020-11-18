@@ -135,7 +135,7 @@
         "text-title-b" : "At IEP we have a technical team working for <span>45 years</span> continuously in the development of engineering projects and consultancy specialized in agribusiness and its associated processes.",
         "parrafo-1" : "We have developed our activities in Argentina, Brazil, Paraguay, Guatemala, Ukraine, Chile, Uruguay, the Philippines, Malaysia, and Angola.",
 
-        "text-title-2" : "An abridged overview of IEP`s Services:",
+        "text-title-2" : "Areas of expertise",
 
         "card-title-1" : "Feasibility studies",
             "list-1-1" : "Local Resources",
@@ -220,12 +220,68 @@
             "list-3-6" : "Oil industrial complex and port, Black Sea Industries, Ilyichesck, Ukraine. Feasibility study, engineering, procurement, supervision and post construction advisory. Sunflower oil extraction 1,500Tn/day. Soy oil extraction 2,000Tn/day. Storage 60,000Tn. Meal and Grain Shipping capacity 1.000Tn/h."
     },
 
-    ".Expertise-lang":{        
+            ".IP-lang":{        
+                "title" : "Industrial pants",
+                "sub-title" : "Know IEP’s (associated) industrial plants and their main features:",
+                
+                "parrafo-1" : "Classification of plant, and conservation fruit packaging (citrus seed) camera installation bromide for moras.",
+                "parrafo-2" : "",
+                "parrafo-3" : "POULTRY PROCESSING.<br>Production line: 8,000 chickens/hours"
+            },
 
-        "op" : "Ongoing projects",
-        "cp" : "Completed Projects"
-        
-    },
+            ".FL-lang":{        
+                "title" : "Feedlots",
+                "sub-title" : "",
+
+                "parrafo" : "Capacity: 30,000 head of cattle in 200 corrals Feeding Plant: 300 MTn/day"
+            },
+
+            ".Milling-lang":{        
+                "title" : "Milling",
+                "sub-title" : "Know IEP´s (associated) milling plants and their main features:",
+
+                "text-1" : "FEEDING PLANT AVEX S.A.",
+                "text-2" : "REVAMPING (Private client)",
+                "text-3" : "RICE MILLING \"TAYI\" NOUGUES Hnos. S.A."
+            },
+
+            ".scp-lang":{        
+                "title" : "Seed Classification Plants",
+                "sub-title" : "Know IEP’s (associated) seed clasifications plants and main features:",
+
+                "text-1" : "Corn, Soybean, Sorghum, Wheat Classification Facility",
+                "text-2" : "Corn, Wheat and Soybean Seeds Classification"
+            },
+
+            ".gcs-lang":{        
+                "title" : "Grain Conditioning and Storage",
+                "sub-title" : ""
+            },
+
+            ".ocp-lang":{        
+                "title" : "Industrial Oil Complex and Port",
+                "sub-title" : "",
+
+                "text-1" : "LA PLATA CEREAL S.A. (ANDRE GROUP. Laussane - Switzerland)",
+                "text-1-a" : "Oil, Grain and Meal shipping port Shipping capacity: <br> Grain: 2.000 Mtn/h<br>Oil: 4.000 Mtn/day<br>Annual throughput: 3.000.000 Mtn",
+                
+                "text-2-a" : "BLACK SEA INDUSTRIES (Ilyichesck - Ukraine)",
+                "text-2-a" : "Export-Import port<br>Storage enlargement: 92,000 MTn<br>Shipping: 1,000 MTn/Hr",
+                "text-2-b" : "<span>CRUSHING PLANT</span><br>Soybean oil extraction: 2,000 MTn/Day<br>Sunflower seed: 1,500 MTn/Day"
+            },
+
+            ".Agro-p-lang":{        
+                "title" : "Agro Industrial Poles",
+                "sub-title" : "Mission",
+
+                "text-1" : "Polo Agro Industrial Quizenga, Angola",
+                "text-1-a" : "Area: 35.000 Ha<br>Maize flour mill 50 tn/day<br>Drying facilities and silos: 4.500 Tn<br>Mill barns and maize flour storage<br>Housing and offices: 600 m2",
+                "text-1-b" : "✓ Land Clearing<br>✓ First maize harvest in Quizenga<br>✓ Training local personnel",
+                
+                "text-2" : "Polo Agro Industrial Cubal, Angola",
+                "text-2-a" : "Area: 35.000 Ha<br>Maize flour mill: 50 tn/day<br>Drying facilities and silos: 4.500 Tn<br>Mill barns and maize flour storage Housing and offices: 600 m2",
+                "text-2-b" : "✓ Primary soil tillage<br>✓ First corn crop<br>✓ Industrial facility"
+            },
 
     ".contact-lang":{
         "text-title" : "Contact us",
