@@ -144,7 +144,7 @@
         padding-bottom: 0;
 
         @media #{$breakpoint-xs} {
-            padding: 14rem 1.5rem;
+            padding: 17rem 1.5rem;
             overflow-x: hidden;
             margin-bottom: 0;
             padding-bottom: 9rem;
@@ -239,7 +239,7 @@
         margin-right: -18rem;
         @media #{$breakpoint-xs} {
             width: 87%;
-            margin-top: -17rem;
+            margin-top: -14rem;
             margin-right: -2rem;
         }
     }
@@ -444,7 +444,7 @@
         }
         @media #{$breakpoint-xs} {
                width: 100%;
-               margin-top: 3rem;
+               margin-top: 0;
             }
 
         h2 {
@@ -462,7 +462,7 @@
             @media #{$breakpoint-xs} {
                 font-size: 40px;
                 margin-bottom: 1rem;
-                width: 50%;
+                width: 105%;
             }
         }
 

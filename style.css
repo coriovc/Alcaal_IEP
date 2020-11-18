@@ -676,7 +676,7 @@ input:focus {
     padding-bottom: 0; }
     @media only screen and (max-width: 767px) {
       .about-area.padd-about {
-        padding: 14rem 1.5rem;
+        padding: 17rem 1.5rem;
         overflow-x: hidden;
         margin-bottom: 0;
         padding-bottom: 9rem; } }
@@ -751,7 +751,7 @@ input:focus {
     @media only screen and (max-width: 767px) {
       .about-area .img-lateral-about {
         width: 87%;
-        margin-top: -17rem;
+        margin-top: -14rem;
         margin-right: -2rem; } }
   .about-area .img-lateral-select {
     width: 60%;
@@ -898,7 +898,7 @@ input:focus {
     @media only screen and (max-width: 767px) {
       .about-area .nl-content {
         width: 100%;
-        margin-top: 3rem; } }
+        margin-top: 0; } }
     .about-area .nl-content h2 {
       font-size: 75px;
       display: block;
@@ -912,7 +912,7 @@ input:focus {
         .about-area .nl-content h2 {
           font-size: 40px;
           margin-bottom: 1rem;
-          width: 50%; } }
+          width: 105%; } }
     .about-area .nl-content h3 {
       font-size: 32px;
       display: block;
