@@ -11,12 +11,11 @@
             "item-3-4" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Moagem",
             "item-3-5" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Unidades de classificação de sementes",
             "item-3-6" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Unidades de armazenamento e acondicionamento de grãos",
-            "item-3-7" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Plants",
-            "item-3-8" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Port Facilities",
-            "item-3-9" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Complexo industrial de petróleo e instalações portuárias",
-            "item-3-10" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Facilities",
-            "item-3-11" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Consultoria, auditoria e análise",
-            "item-3-12" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Pólos agroindustriais",
+            "item-3-7" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Port Facilities",
+            "item-3-8" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Complexo industrial de petróleo e instalações portuárias",
+            "item-3-9" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Facilities",
+            "item-3-10" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Consultoria, auditoria e análise",
+            "item-3-11" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Pólos agroindustriais",
         "item-4" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Projectos seleccionados",
         "item-5" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Contacto",
 
@@ -259,6 +258,50 @@
                 "sub-title" : ""
             },
 
+            ".pf-lang": {
+                "title": "Instalações Portuárias",
+                "subtítulo" : ""
+            },
+
+            ".FI-lang": {
+                "title": "Indústria de fertilizantes",
+                "subtítulo": "A equipe do IEP tem ampla experiência na cadeia de valor de fertilizantes.",
+                "parrafo": "Em 1986, a Petrosur Fertilizantes (Argentina) contratou especialistas da atual equipe do IEP para realizar um estudo sobre o futuro do consumo de fertilizantes na Argentina. <br> Em 1991 o governo argentino promoveu o projeto Fertineu, com a participação de província de Neuquen e YPF. Uma área importante foi atribuída para o projeto de Fábrica de Fertilizantes, através da Lei nº 2.134, para COMINCO-AGRIUM. ",
+
+                "text-1-1": "COMINCO FERTILIZERS LTD.",
+                "text-1-2": "-Confiou aos técnicos do IEP um estudo sobre a atualidade na Argentina. <br> -A equipe de fertilizantes do IEP, é liderada por um profissional que já trabalhou com empresas de primeiro nível, realizando as seguintes tarefas.",
+
+                "text-2-1": "GERENTE MUNDIAL DA AGRONOMIA. 2010.",
+                "text-2-2": "-Desenvolvimento e gerenciamento de estratégia de plataforma agronômica global para facilitar as vendas de fertilizantes. <br> -Liderança de uma equipe global de agrônomos que promovem safras de fosfato premium e nutrição balanceada. <br> -Responsável por, treinamento e suporte para clientes internos e externos em todo o mundo. ",
+
+                "text-3-1": "GERENTE DE PESQUISA E DESENVOLVIMENTO. 2008 -2010.",
+                "text-3-2": "-Responsável pelo desenvolvimento de novos produtos de fosfato e potássio. <br> -Projetou, analisou, interpretou e resumiu estudos do Camboja, estufas e laboratórios em todo o mundo. <br> -fornecido com expertise agronômica em projetos estratégicos realizados por equipes multifuncionais. ",
+
+                "text-4-1": "CONSULTOR INDEPENDENTE. 2005 -2008.",
+                "text-4-2": "-Projetou, analisou e resumiu estudos agrícolas de precisão em fazendas na Argentina, Brasil e EUA. <br> -Apoio agronômico e estatístico para a Associação Argentina de Consórcios Regionais de Experimentação Agropecuária (AACREA )."
+            },
+
+            ".con-lang": {
+                "title": "Consultoria, Auditoria e Análise",
+                "subtítulo": "O IEP tem realizado trabalhos de consultoria para grandes empreendimentos do agronegócio em vários países. A equipe técnica do IEP tem expertise ligada ao desenvolvimento de análises de agronegócios e auditorias técnicas em países como Argentina, Brasil, Uruguai, Bolívia, Paraguai, Venezuela, México, República Dominicana, Angola, Zâmbia, Moçambique e Índia. ",
+
+                "text-1-1": "PECUÁRIA",
+                "text-1-2": "IEP possui equipes técnicas com vasta experiência em:",
+                "text-1-3": "Lote de leite e ração <br> empanados <br> fattennig",
+
+                "text-2-1": "OUTRAS CULTURAS",
+                "text-2-2": "IEP tem grande experiência na produção em ambientes subtropicais e em culturas como algodão, feijão, soja, milho e outros.",
+
+                "text-3-1": "FLORESTA",
+                "text-3-2": "A produção de madeira para diferentes usos é importante para as economias locais. O IEP tem experiência em silvicultura e desenvolvimento silvo-pastoril.",
+
+                "text-4-1": "DESENVOLVIMENTO DE NOVAS CULTURAS",
+                "text-4-2": "O IEP desenvolveu tecnologia em Jatropha curcas para a produção de biodiesel.",
+
+                "text-5-1": "IEP IN AFRICA",
+                "text-5-2": "Desde 2004 o IEP tem conduzido pesquisas em Angola, Zâmbia e Moçambique, determinando o potencial de produção, fatores limitantes e requisitos para o desenvolvimento da agricultura, auto¬suficiência alimentar e capacidade de exportação. Hoje IEP aconselha desenvolvimento agrícola projectos em Angola."
+            },
+
             ".ocp-lang":{        
                 "title" : "Complexo industrial de petróleo e instalações portuárias",
                 "sub-title" : "",
@@ -283,6 +326,12 @@
                 "text-2-a" : "Superfície: 35.000 Ha <br>Moinho de farinha de milho: 50 tn/dia <br>Instalações de secagem e silos: 4500 Tn <br>Moinhos e armazenamento de farinha de milho moradia e escritórios: 600 m2",
                 "text-2-b" : "✓ Lavoura primária do solo <br>✓ Primeira colheita de milho<br>✓ Instalação industrial "
             },
+            
+    ".error-lang":{        
+        "title" : "Error 404",
+        "sub-title" : "Algo salió mal y no podemos encontrar el enlace solicitado, lo sentimos.",
+        "btn" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Volver al inicio"
+    },
 
     ".contact-lang":{
         "text-title" : "Contate-nos",

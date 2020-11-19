@@ -1134,7 +1134,7 @@ input:focus {
         color: #04948A; }
       @media only screen and (max-width: 767px) {
         .expertise-area .nl-content h3 {
-          font-size: 17px;
+          font-size: 18px;
           margin-bottom: 1.5rem;
           margin-right: 0; } }
     .expertise-area .nl-content p {
@@ -1143,6 +1143,15 @@ input:focus {
       padding-top: 1%;
       font-size: 14px;
       margin-right: 1rem; }
+      .expertise-area .nl-content p.sty {
+        margin-bottom: 2rem;
+        width: 80%; }
+        @media only screen and (max-width: 767px) {
+          .expertise-area .nl-content p.sty {
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+            width: 100%;
+            font-size: 13px; } }
       @media only screen and (max-width: 767px) {
         .expertise-area .nl-content p {
           font-size: 14px;
