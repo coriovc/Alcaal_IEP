@@ -2744,6 +2744,8 @@ textarea.form-control {
         border-color: #04948A; }
     .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classy-navbar-toggler .navbarToggler span {
       background-color: #3D4F4E; }
+    .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a i {
+      line-height: 3; }
     .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.item-menu {
       position: relative;
       z-index: 1;
@@ -2764,7 +2766,7 @@ textarea.form-control {
           width: 100%;
           height: 2.5px;
           background-color: #04948A;
-          margin-bottom: -1.07rem;
+          margin-bottom: -1.78rem;
           bottom: 0;
           left: 50%;
           -webkit-transform: translateX(-50%);
@@ -2790,7 +2792,7 @@ textarea.form-control {
         width: 100%;
         height: 2.5px;
         background-color: #04948A;
-        margin-bottom: -1.07rem;
+        margin-bottom: -1.78rem;
         bottom: 0;
         left: 50%;
         -webkit-transform: translateX(-50%);
@@ -2805,12 +2807,37 @@ textarea.form-control {
           .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.mega-item::after {
             width: 100%;
             height: 1px; } }
+    .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.mega-item-2 {
+      color: #04948A; }
+      .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.mega-item-2::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2.5px;
+        background-color: #04948A;
+        margin-bottom: -1.8rem;
+        bottom: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        z-index: 1; }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.mega-item-2::after {
+            width: 100%;
+            height: 1px; } }
+        @media only screen and (max-width: 767px) {
+          .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.mega-item-2::after {
+            width: 100%;
+            height: 1px; } }
+    .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.a-1 {
+      line-height: 1.2; }
     .header-area .main-header-area.sticky-menu .classy-nav-container .classy-navbar .classynav ul li a.link {
       position: relative;
       z-index: 1;
       font-size: 16px;
       color: #5D5C60;
-      display: block;
+      display: inline-flex;
       font-weight: normal;
       width: auto;
       margin-bottom: 2%; }
@@ -2907,6 +2934,8 @@ textarea.form-control {
           text-transform: capitalize;
           color: #5D5C60;
           margin: 16px 0; }
+          .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a i {
+            line-height: 3; }
           .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a:focus, .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a:hover {
             color: #04948A; }
           @media only screen and (max-width: 767px) {
@@ -2916,12 +2945,14 @@ textarea.form-control {
           .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a::after {
             content: none;
             width: auto; }
+          .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a.a-1 {
+            line-height: 1.2; }
           .header-area .main-header-area.sticky .classy-nav-container .classy-navbar .classynav ul li a.link {
             position: relative;
             z-index: 1;
             font-size: 16px;
             color: #5D5C60;
-            display: block;
+            display: inline-flex;
             font-weight: normal;
             width: auto;
             margin-top: 0;
@@ -3023,12 +3054,14 @@ textarea.form-control {
           .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a::after {
             content: none;
             width: auto; }
+          .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a.a-1 {
+            line-height: 1.2; }
           .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a.link {
             position: relative;
             z-index: 1;
             font-size: 16px;
             color: #5D5C60;
-            display: block;
+            display: inline-flex;
             font-weight: normal;
             width: auto;
             margin-bottom: 2%; }
@@ -3052,7 +3085,7 @@ textarea.form-control {
               width: 100%;
               height: 2.5px;
               background-color: #04948A;
-              margin-bottom: -1.07rem;
+              margin-bottom: -1.78rem;
               bottom: 0;
               left: 50%;
               -webkit-transform: translateX(-50%);
@@ -3069,6 +3102,32 @@ textarea.form-control {
                   width: 0; } }
             @media only screen and (max-width: 767px) {
               .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a.mega-item {
+                color: #5D5C60; } }
+          .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a.mega-item-2 {
+            color: #04948A; }
+            .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a.mega-item-2::after {
+              content: '';
+              position: absolute;
+              width: 100%;
+              height: 2.5px;
+              background-color: #04948A;
+              margin-bottom: -1.07rem;
+              bottom: 0;
+              left: 50%;
+              -webkit-transform: translateX(-50%);
+              -ms-transform: translateX(-50%);
+              transform: translateX(-50%);
+              z-index: 1; }
+              @media only screen and (min-width: 768px) and (max-width: 991px) {
+                .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a.mega-item-2::after {
+                  width: 100%;
+                  height: 1px; } }
+              @media only screen and (max-width: 767px) {
+                .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a.mega-item-2::after {
+                  content: none;
+                  width: 0; } }
+            @media only screen and (max-width: 767px) {
+              .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li a.mega-item-2 {
                 color: #5D5C60; } }
         .header-area .main-header-area2 .classy-nav-container .classy-navbar .classynav ul li.current-item a {
           color: #000000; }
@@ -3145,6 +3204,8 @@ textarea.form-control {
       .classy-nav-container .classy-navbar .classynav .lang-b a:focus, .classy-nav-container .classy-navbar .classynav .lang-b a:hover {
         color: #04948A;
         border-color: #04948A; }
+    .classy-nav-container .classy-navbar .classynav ul li a i {
+      line-height: 3; }
     .classy-nav-container .classy-navbar .classynav ul li a.item-menu {
       position: relative;
       z-index: 1;
@@ -3159,12 +3220,14 @@ textarea.form-control {
         .classy-nav-container .classy-navbar .classynav ul li a.item-menu {
           font-size: 25px;
           color: #5D5C60; } }
+    .classy-nav-container .classy-navbar .classynav ul li a.a-1 {
+      line-height: 1.2; }
     .classy-nav-container .classy-navbar .classynav ul li a.link {
       position: relative;
       z-index: 1;
       font-size: 16px;
       color: #5D5C60;
-      display: block;
+      display: inline-flex;
       font-weight: normal;
       width: auto;
       margin-bottom: 2%; }
