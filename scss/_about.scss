@@ -144,7 +144,21 @@
         padding-bottom: 0;
 
         @media #{$breakpoint-xs} {
-            padding: 17rem 1.5rem;
+            padding: 19rem 1.5rem;
+            overflow-x: hidden;
+            margin-bottom: 0;
+            padding-bottom: 9rem;
+        }
+    }
+
+    &.padd-S{
+        padding: 10rem 1.5rem;
+        padding-left: 5rem;
+        margin-bottom: 10rem;
+        padding-bottom: 0;
+        
+        @media #{$breakpoint-xs} {
+            padding: 15rem 1.5rem;
             overflow-x: hidden;
             margin-bottom: 0;
             padding-bottom: 9rem;
@@ -239,7 +253,7 @@
         margin-right: -18rem;
         @media #{$breakpoint-xs} {
             width: 87%;
-            margin-top: -14rem;
+            margin-top: -16rem;
             margin-right: -2rem;
         }
     }
@@ -253,7 +267,7 @@
         margin-right: -17rem;
         @media #{$breakpoint-xs} {
             width: 56%;
-            margin-top: -4rem;
+            margin-top: -5rem;
             margin-right: -2.5rem;
         }
     }
@@ -462,7 +476,131 @@
             @media #{$breakpoint-xs} {
                 font-size: 40px;
                 margin-bottom: 1rem;
-                width: 105%;
+                width: 110%;
+            }
+        }
+
+        h3 {
+            font-size: 32px;
+            display: block;
+            font-weight: 400;
+            margin-bottom: 0;
+            color: $text;
+            margin-bottom: 3rem;
+            margin-right: 9rem;
+            
+            &.b{
+              margin-right: 6rem;
+              @media #{$breakpoint-xs} {
+                margin-right: 0;
+                width: 80%;
+                }
+            }
+            span{
+                color:$primary;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 18px;
+                margin-bottom: 1.5rem;
+                margin-right: 0;
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+            line-height: 2;
+            padding-top: 1%;
+            font-size: 14px;
+            margin-right: 1rem;            
+
+            @media #{$breakpoint-xs} {
+                font-size: 14px;
+                margin-right: 0;
+                line-height: 1.5;
+            }
+
+            &.team{
+                line-height: 1.5;
+                font-size: 14px;
+                margin-right: 15rem;
+
+                @media #{$breakpoint-xs} {
+                    font-size: 13px;
+                    margin-right: 0;
+                    line-height: 1.5;
+                }
+            }
+
+            &.margmov{
+                margin-bottom:1rem;
+            }
+        }
+        .our-link {
+                margin-left: 2rem;
+
+                i{
+                    color:$primary;
+                    font-size: 1rem;
+                    font-weight: 800;                        
+                    margin-right: 0.5rem;
+                }
+
+            li {
+                position: relative;
+                z-index: 1;
+                font-size: 15px;
+                color: $primary;
+                font-weight: 800;
+                line-height: 2;
+
+                @media #{$breakpoint-xs} {
+                    width: auto;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 1.2;
+                }
+
+                i{
+                    color:$primary;
+                    font-size: 1rem;
+                    font-weight: 800;                        
+                    margin-right: 0.5rem;
+                }
+            }
+        }
+
+    }
+
+    .nl-content-s {
+        position: relative;
+        z-index: 1;
+        width: 87%;
+
+        &.m15{
+            margin-left:15px;
+        }
+        @media #{$breakpoint-xs} {
+               width: 100%;
+               margin-top: 0;
+            }
+
+        h2 {
+            font-size: 75px;
+            display: block;
+            font-weight: 400;
+            margin-bottom: 0;
+            color: $primary;
+            margin-bottom: 2%;
+
+            span{
+                color:$primary;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 40px;
+                margin-bottom: 1rem;
+                width: 80%;
             }
         }
 

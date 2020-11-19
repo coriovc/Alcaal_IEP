@@ -676,7 +676,18 @@ input:focus {
     padding-bottom: 0; }
     @media only screen and (max-width: 767px) {
       .about-area.padd-about {
-        padding: 17rem 1.5rem;
+        padding: 19rem 1.5rem;
+        overflow-x: hidden;
+        margin-bottom: 0;
+        padding-bottom: 9rem; } }
+  .about-area.padd-S {
+    padding: 10rem 1.5rem;
+    padding-left: 5rem;
+    margin-bottom: 10rem;
+    padding-bottom: 0; }
+    @media only screen and (max-width: 767px) {
+      .about-area.padd-S {
+        padding: 15rem 1.5rem;
         overflow-x: hidden;
         margin-bottom: 0;
         padding-bottom: 9rem; } }
@@ -751,7 +762,7 @@ input:focus {
     @media only screen and (max-width: 767px) {
       .about-area .img-lateral-about {
         width: 87%;
-        margin-top: -14rem;
+        margin-top: -16rem;
         margin-right: -2rem; } }
   .about-area .img-lateral-select {
     width: 60%;
@@ -763,7 +774,7 @@ input:focus {
     @media only screen and (max-width: 767px) {
       .about-area .img-lateral-select {
         width: 56%;
-        margin-top: -4rem;
+        margin-top: -5rem;
         margin-right: -2.5rem; } }
   .about-area .img-lateral-select-2 {
     width: 34%;
@@ -912,7 +923,7 @@ input:focus {
         .about-area .nl-content h2 {
           font-size: 40px;
           margin-bottom: 1rem;
-          width: 105%; } }
+          width: 110%; } }
     .about-area .nl-content h3 {
       font-size: 32px;
       display: block;
@@ -977,6 +988,98 @@ input:focus {
             font-weight: 600;
             line-height: 1.2; } }
         .about-area .nl-content .our-link li i {
+          color: #04948A;
+          font-size: 1rem;
+          font-weight: 800;
+          margin-right: 0.5rem; }
+  .about-area .nl-content-s {
+    position: relative;
+    z-index: 1;
+    width: 87%; }
+    .about-area .nl-content-s.m15 {
+      margin-left: 15px; }
+    @media only screen and (max-width: 767px) {
+      .about-area .nl-content-s {
+        width: 100%;
+        margin-top: 0; } }
+    .about-area .nl-content-s h2 {
+      font-size: 75px;
+      display: block;
+      font-weight: 400;
+      margin-bottom: 0;
+      color: #04948A;
+      margin-bottom: 2%; }
+      .about-area .nl-content-s h2 span {
+        color: #04948A; }
+      @media only screen and (max-width: 767px) {
+        .about-area .nl-content-s h2 {
+          font-size: 40px;
+          margin-bottom: 1rem;
+          width: 80%; } }
+    .about-area .nl-content-s h3 {
+      font-size: 32px;
+      display: block;
+      font-weight: 400;
+      margin-bottom: 0;
+      color: #5D5C60;
+      margin-bottom: 3rem;
+      margin-right: 9rem; }
+      .about-area .nl-content-s h3.b {
+        margin-right: 6rem; }
+        @media only screen and (max-width: 767px) {
+          .about-area .nl-content-s h3.b {
+            margin-right: 0;
+            width: 80%; } }
+      .about-area .nl-content-s h3 span {
+        color: #04948A; }
+      @media only screen and (max-width: 767px) {
+        .about-area .nl-content-s h3 {
+          font-size: 18px;
+          margin-bottom: 1.5rem;
+          margin-right: 0; } }
+    .about-area .nl-content-s p {
+      margin-bottom: 0;
+      line-height: 2;
+      padding-top: 1%;
+      font-size: 14px;
+      margin-right: 1rem; }
+      @media only screen and (max-width: 767px) {
+        .about-area .nl-content-s p {
+          font-size: 14px;
+          margin-right: 0;
+          line-height: 1.5; } }
+      .about-area .nl-content-s p.team {
+        line-height: 1.5;
+        font-size: 14px;
+        margin-right: 15rem; }
+        @media only screen and (max-width: 767px) {
+          .about-area .nl-content-s p.team {
+            font-size: 13px;
+            margin-right: 0;
+            line-height: 1.5; } }
+      .about-area .nl-content-s p.margmov {
+        margin-bottom: 1rem; }
+    .about-area .nl-content-s .our-link {
+      margin-left: 2rem; }
+      .about-area .nl-content-s .our-link i {
+        color: #04948A;
+        font-size: 1rem;
+        font-weight: 800;
+        margin-right: 0.5rem; }
+      .about-area .nl-content-s .our-link li {
+        position: relative;
+        z-index: 1;
+        font-size: 15px;
+        color: #04948A;
+        font-weight: 800;
+        line-height: 2; }
+        @media only screen and (max-width: 767px) {
+          .about-area .nl-content-s .our-link li {
+            width: auto;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1.2; } }
+        .about-area .nl-content-s .our-link li i {
           color: #04948A;
           font-size: 1rem;
           font-weight: 800;
