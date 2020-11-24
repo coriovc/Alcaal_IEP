@@ -10,10 +10,15 @@
             "item-3-3" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Feedlots",
             "item-3-4" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Molienda",
             "item-3-5" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Plantas de clasificación de semillas",
-            "item-3-6" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Plantas de acondicionamiento y almacenamiento de granos",
+            
+            "item-3-6" : "<a class=\"link a-1\" href=\"Expertise/Industrial_OCP.html\"><i class=\"arrow_right-up icon-zise mr-2\"></i>Plantas de acondicionamiento y almacenamiento de granos</a>",
+            "item-3-6-e" : "<a class=\"link a-1\" href=\"Industrial_OCP.html\"><i class=\"arrow_right-up icon-zise mr-2\"></i>Plantas de acondicionamiento y almacenamiento de granos</a>",
+            
             "item-3-7" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Port Facilities",
-            "item-3-8" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Complejo Industrial Petrolero e Instalaciones Portuarias",
-            "item-3-9" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Facilities",
+            
+            "item-3-8" : "<a class=\"link a-1\" href=\"Expertise/Industrial_OCP.html\"><i class=\"arrow_right-up icon-zise mr-2\"></i>Complejo Industrial Petrolero e Instalaciones Portuarias</a>",
+            "item-3-8-e" : "<a class=\"link a-1\" href=\"Industrial_OCP.html\"><i class=\"arrow_right-up icon-zise mr-2\"></i>Complejo Industrial Petrolero e Instalaciones Portuarias</a>",
+            
             "item-3-10" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Consultoría, Auditoría y Análisis",
             "item-3-11" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Polos Agroindustriales",
         "item-4" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Proyectos seleccionados",

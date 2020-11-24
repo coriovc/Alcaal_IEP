@@ -10,10 +10,15 @@
             "item-3-3" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Feedlots",
             "item-3-4" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Milling",
             "item-3-5" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Seed Classification Plants",
-            "item-3-6" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Grain Conditioning and Storage Plants",
+
+            "item-3-6" : "<a  class=\"link\" href=\"Expertise/GCS.html\"><i class=\"arrow_right-up icon-zise mr-2\"></i>Grain Conditioning and Storage Plants</a>",
+            "item-3-6-e" : "<a  class=\"link\" href=\"GCS.html\"><i class=\"arrow_right-up icon-zise mr-2\"></i>Grain Conditioning and Storage Plants</a>",
+            
             "item-3-7" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Port Facilities",
-            "item-3-8" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Industrial Oil Complex and Port",
-            "item-3-9" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Facilities",
+
+            "item-3-8" : "<a  class=\"link\" href=\"Expertise/Industrial_OCP.html\"><i class=\"arrow_right-up icon-zise mr-2\"></i>Industrial Oil Complex and Port facilities</a>",
+            "item-3-8-e" : "<a  class=\"link\" href=\"Industrial_OCP.html\"><i class=\"arrow_right-up icon-zise mr-2\"></i>Industrial Oil Complex and Port facilities</a>",
+            
             "item-3-10" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Consulting, Audit & Analysis",
             "item-3-11" : "<i class=\"arrow_right-up icon-zise mr-2\"></i>Agro Industrial Poles",
         "item-4" : "<i class=\"arrow_right-up icon-link-m d-inline-block d-xl-none\"></i>Selected Projects",
